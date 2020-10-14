@@ -378,6 +378,52 @@ public class CalculatorUI extends JFrame {
 		button_clear.setBackground(new Color(221, 160, 221));
 		button_clear.setBounds(327, 85, 75, 40);
 		getContentPane().add(button_clear);
+
+		JButton button_divide = new JButton("/");
+		button_divide.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_divide.setBackground(Color.PINK);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_divide.setBackground(Color.PINK);
+			}
+		});
+		//button_divide.addActionListener(e -> clearCalculator());
+		button_divide.addActionListener(e -> {
+			saveValueOfArg1();
+			saveValueOfMathOp(OPERATOR.DIVIDE);
+		});
+		button_divide.setOpaque(true);
+		button_divide.setForeground(Color.WHITE);
+		button_divide.setBorder(new MatteBorder(4, 4, 4, 4, Color.WHITE));
+		button_divide.setBackground(new Color(221, 160, 221));
+		button_divide.setBounds(327, 294, 75, 40);
+		getContentPane().add(button_divide);
+
+		JButton button_multiply = new JButton("*");
+		button_multiply.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_multiply.setBackground(Color.PINK);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_multiply.setBackground(Color.PINK);
+			}
+		});
+		//button_divide.addActionListener(e -> clearCalculator());
+		button_multiply.addActionListener(e -> {
+			saveValueOfArg1();
+			saveValueOfMathOp(OPERATOR.MULTIPLY);
+		});
+		button_multiply.setOpaque(true);
+		button_multiply.setForeground(Color.WHITE);
+		button_multiply.setBorder(new MatteBorder(4, 4, 4, 4, Color.WHITE));
+		button_multiply.setBackground(new Color(221, 160, 221));
+		button_multiply.setBounds(327, 346, 75, 40);
+		getContentPane().add(button_multiply);
 		
 		JLabel lblElliesCalculator = new JLabel("Sample Calculator -- design by Ellie");
 		lblElliesCalculator.setBounds(6, 6, 134, 16);
