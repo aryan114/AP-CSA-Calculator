@@ -72,7 +72,6 @@ public class CalculatorUI extends JFrame {
 		arg1 = Double.parseDouble((calcArea.getText()));
 		mathState = STATE.CALC;
 		initialCalcAreaInputState = true;
-		
 	}
 	
 	private void saveValueOfArg2() { // method to store 2nd value in calculation (arg2)
@@ -455,6 +454,80 @@ public class CalculatorUI extends JFrame {
 		button_power.setBounds(414, 86, 75, 40);
 		getContentPane().add(button_power);
 
+
+
+
+		JButton button_sin = new JButton("sin");
+		button_sin.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_sin.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_sin.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_sin.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.SIN);
+		});
+		button_sin.setOpaque(true);
+		button_sin.setForeground(Color.BLACK);
+		button_sin.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_sin.setBackground(Color.ORANGE);
+		button_sin.setBounds(501, 86, 75, 40);
+		getContentPane().add(button_sin);
+
+		JButton button_cos = new JButton("cos");
+		button_cos.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_cos.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_cos.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_cos.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.COSINE);
+		});
+		button_cos.setOpaque(true);
+		button_cos.setForeground(Color.BLACK);
+		button_cos.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_cos.setBackground(Color.ORANGE);
+		button_cos.setBounds(501, 138, 75, 40);
+		getContentPane().add(button_cos);
+
+		JButton button_tan = new JButton("tan");
+		button_tan.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_tan.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_tan.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_tan.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.TAN);
+		});
+		button_tan.setOpaque(true);
+		button_tan.setForeground(Color.BLACK);
+		button_tan.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_tan.setBackground(Color.ORANGE);
+		button_tan.setBounds(501, 190, 75, 40);
+		getContentPane().add(button_tan);
+
+
+
 		JButton button_square = new JButton("^2");
 		button_square.addMouseListener(new MouseAdapter() {
 			@Override
@@ -478,9 +551,9 @@ public class CalculatorUI extends JFrame {
 		button_square.setBounds(414, 242, 75, 40);
 		getContentPane().add(button_square);
 		
-		JLabel lblElliesCalculator = new JLabel("Sample Calculator -- design by Ellie");
-		lblElliesCalculator.setBounds(6, 6, 134, 16);
-		getContentPane().add(lblElliesCalculator);
+		JLabel lblourCalculator = new JLabel("Aryan and Pranav");
+		lblourCalculator.setBounds(6, 6, 134, 16);
+		getContentPane().add(lblourCalculator);
 
 	}
 }
