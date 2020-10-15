@@ -343,6 +343,29 @@ public class CalculatorUI extends JFrame {
 		button_minus.setBackground(Color.ORANGE);
 		button_minus.setBounds(327, 190, 75, 40);
 		getContentPane().add(button_minus);
+
+		JButton button_roots = new JButton("ROOTS	");
+		button_roots.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_roots.setBackground(Color.BLACK);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_roots.setBackground(Color.ORANGE);
+			}
+		});
+		button_roots.addActionListener(e -> {
+			saveValueOfArg1();
+			saveValueOfMathOp(OPERATOR.ROOTS);
+		});
+		button_roots.setOpaque(true);
+		button_roots.setForeground(Color.BLACK);
+		button_roots.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_roots.setBackground(Color.ORANGE);
+		button_roots.setBounds(501, 398, 75, 40);
+		getContentPane().add(button_roots);
+
 		
 		JButton button_equals = new JButton("=");
 		button_equals.addMouseListener(new MouseAdapter() {
