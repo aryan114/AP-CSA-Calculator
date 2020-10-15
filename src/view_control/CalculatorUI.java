@@ -526,7 +526,75 @@ public class CalculatorUI extends JFrame {
 		button_tan.setBounds(501, 190, 75, 40);
 		getContentPane().add(button_tan);
 
+		JButton button_asin = new JButton("sin^-1");
+		button_asin.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_asin.setBackground(Color.ORANGE);
+			}
 
+			public void mouseReleased(MouseEvent e) {
+				button_asin.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_asin.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.SINVERSE);
+		});
+		button_asin.setOpaque(true);
+		button_asin.setForeground(Color.BLACK);
+		button_asin.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_asin.setBackground(Color.ORANGE);
+		button_asin.setBounds(501, 242, 75, 40);
+		getContentPane().add(button_asin);
+
+
+		JButton button_acos = new JButton("cos^-1");
+		button_acos.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_acos.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_acos.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_acos.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.CINVERSE);
+		});
+		button_acos.setOpaque(true);
+		button_acos.setForeground(Color.BLACK);
+		button_acos.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_acos.setBackground(Color.ORANGE);
+		button_acos.setBounds(501, 294, 75, 40);
+		getContentPane().add(button_acos);
+
+		JButton button_atan = new JButton("tan^-1");
+		button_atan.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_atan.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_atan.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_atan.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.TINVERSE);
+		});
+		button_atan.setOpaque(true);
+		button_atan.setForeground(Color.BLACK);
+		button_atan.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_atan.setBackground(Color.ORANGE);
+		button_atan.setBounds(501, 346, 75, 40);
+		getContentPane().add(button_atan);
 
 		JButton button_square = new JButton("^2");
 		button_square.addMouseListener(new MouseAdapter() {
