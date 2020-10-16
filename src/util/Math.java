@@ -2,7 +2,7 @@ package util;
 
 public class Math {
 	
-	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS	 };
+	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS, LN	 };
 	public static double calculateIt(double arg1, OPERATOR mathOp, double arg2) {
 		
 		double calcAnswer;		
@@ -46,6 +46,9 @@ public class Math {
 				break;
 			case ROOTS:
 				calcAnswer = java.lang.Math.pow(arg1, 1/arg2);
+				break;
+			case LN:
+				calcAnswer = java.lang.Math.log(arg1);
 				break;
 	        case NOOP:
 	        default:	
