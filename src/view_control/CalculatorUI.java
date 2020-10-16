@@ -34,6 +34,7 @@ public class CalculatorUI extends JFrame {
 		EventQueue.invokeLater(() -> {
 			try {
 				CalculatorUI frame = new CalculatorUI();
+				frame.setTitle("Scientific Calculator");
 				frame.setVisible(true);
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -102,12 +103,12 @@ public class CalculatorUI extends JFrame {
 	public CalculatorUI() {
 		getContentPane().setBackground(new Color(211, 211, 211));
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
-		setBounds(150, 150, 525, 375);
+		setBounds(150, 150, 700, 375);
 		getContentPane().setLayout(null);
 		calcArea.setForeground(Color.BLACK);
 		calcArea.setFont(new Font("Lucida Grande", Font.PLAIN, 72));
 		calcArea.setHorizontalAlignment(SwingConstants.RIGHT);
-		calcArea.setBounds(18, 6, 377, 67);
+		calcArea.setBounds(18, 6, 650, 67);
 		getContentPane().add(calcArea);
 		
 		JButton button_1 = new JButton("1");
@@ -363,7 +364,7 @@ public class CalculatorUI extends JFrame {
 		button_roots.setForeground(Color.BLACK);
 		button_roots.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
 		button_roots.setBackground(Color.ORANGE);
-		button_roots.setBounds(501, 398, 75, 40);
+		button_roots.setBounds(588, 242, 75, 40);
 		getContentPane().add(button_roots);
 
 		
@@ -569,7 +570,7 @@ public class CalculatorUI extends JFrame {
 		button_asin.setForeground(Color.BLACK);
 		button_asin.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
 		button_asin.setBackground(Color.ORANGE);
-		button_asin.setBounds(501, 242, 75, 40);
+		button_asin.setBounds(588, 86, 75, 40);
 		getContentPane().add(button_asin);
 
 
@@ -593,7 +594,7 @@ public class CalculatorUI extends JFrame {
 		button_acos.setForeground(Color.BLACK);
 		button_acos.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
 		button_acos.setBackground(Color.ORANGE);
-		button_acos.setBounds(501, 294, 75, 40);
+		button_acos.setBounds(588, 138, 75, 40);
 		getContentPane().add(button_acos);
 
 		JButton button_atan = new JButton("tan^-1");
@@ -616,7 +617,7 @@ public class CalculatorUI extends JFrame {
 		button_atan.setForeground(Color.BLACK);
 		button_atan.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
 		button_atan.setBackground(Color.ORANGE);
-		button_atan.setBounds(501, 346, 75, 40);
+		button_atan.setBounds(588, 190, 75, 40);
 		getContentPane().add(button_atan);
 
 		JButton button_square = new JButton("^2");
@@ -641,9 +642,32 @@ public class CalculatorUI extends JFrame {
 		button_square.setBackground(Color.ORANGE);
 		button_square.setBounds(414, 242, 75, 40);
 		getContentPane().add(button_square);
+
+		JButton button_ln = new JButton("ln");
+		button_ln.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_ln.setBackground(Color.ORANGE);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_ln.setBackground(Color.ORANGE);
+			}
+		});
+
+		button_ln.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.LN);
+		});
+		button_ln.setOpaque(true);
+		button_ln.setForeground(Color.BLACK);
+		button_ln.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_ln.setBackground(Color.ORANGE);
+		button_ln.setBounds(501, 242, 75, 40);
+		getContentPane().add(button_ln);
 		
-		JLabel lblourCalculator = new JLabel("Aryan and Pranav");
-		lblourCalculator.setBounds(6, 6, 134, 16);
+		JLabel lblourCalculator = new JLabel("Aryan and Pranav's Calculator");
+		lblourCalculator.setBounds(6, 300, 250, 16);
 		getContentPane().add(lblourCalculator);
 
 	}
