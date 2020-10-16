@@ -2,7 +2,7 @@ package util;
 
 public class Math {
 	
-	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS	 };
+	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS};
 	public static double calculateIt(double arg1, OPERATOR mathOp, double arg2) {
 		
 		double calcAnswer;		
