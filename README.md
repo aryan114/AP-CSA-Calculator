@@ -13,12 +13,14 @@ Our Plan for approaching the MVC Calculator:
 
 For our MVC calculator, we want to break up the code so that each component is in a separate file. The CalcUI would be a file which basically constructs the overall appearance of the calculator. This would include the JForm GUI Designe. Additionally, the code responsible for the model part is going to be in a separate file. Here, we will include code for storing the history, assigning the variables and what the program should do when certain things happen. The control code will be in a separate file and will serve as the linkage between the view components and the model components. This is how we plan on re-creating the calculator so that different parts of the code could be reused and recycled as needed.
 
-
+_________________________________________________________________________________________________________________________________________________________________________________
 
 
 
 Think about the View impact of coding to alternate platforms in todays computing world? 
+
 Desktops: Windows, MacOS, Linux
+
 Mobile: Android, iPhone
 
 The view part of the code is important because first of all, it sets the initial impression for the program. The better it looks, the higher the chances of the user looking/using the program. But from a coding point of view, the view part of MVC is important because it creates the layout for the OS that its being run on. While the view component might be changed in order to match the device/system that it runs on, the general model and control remain the same since the background operations are unchanged.
