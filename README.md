@@ -1,6 +1,7 @@
 # AP-CSA-Calculator-Aryan-and-Pranav
 
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
+
 Model: The model aspect of the code is the overall structure of the code. In our calculator, our model could include the history and anything that "controls" the code. The background processes that take place are part of the model code. This could include setting the variables, changing the display, and etc. In an MVC project, the model code will not change as long as the purpose of the code remains the same. Since the model is the "theoretical" stuff behind the actual program, using the same model will allow us to reuse code. 
 
 View: The code that is responsible for the visual aspect of the project - the GUI. This includes the colors, button placement, font, and etc. This code will stay the same since it just represents what the user sees. Different control and model code could be used under the same view code. So, applying those principles to our calculator, the view code is the code that creates all the buttons, gives them the colors, and defines the lables.
@@ -9,6 +10,7 @@ Control: The control code are the if/then statments that basically control the f
 
 
 Our Plan for approaching the MVC Calculator: 
+
 For our MVC calculator, we want to break up the code so that each component is in a separate file. The CalcUI would be a file which basically constructs the overall appearance of the calculator. This would include the JForm GUI Designe. Additionally, the code responsible for the model part is going to be in a separate file. Here, we will include code for storing the history, assigning the variables and what the program should do when certain things happen. The control code will be in a separate file and will serve as the linkage between the view components and the model components. This is how we plan on re-creating the calculator so that different parts of the code could be reused and recycled as needed.
 
 
