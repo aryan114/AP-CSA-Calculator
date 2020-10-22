@@ -19,10 +19,6 @@ ________________________________________________________________________________
 
 Think about the View impact of coding to alternate platforms in todays computing world? 
 
-Desktops: Windows, MacOS, Linux
-
-Mobile: Android, iPhone
-
 The view part of the code is important because first of all, it sets the initial impression for the program. The better it looks, the higher the chances of the user looking/using the program. But from a coding point of view, the view part of MVC is important because it creates the layout for the OS that its being run on. While the view component might be changed in order to match the device/system that it runs on, the general model and control remain the same since the background operations are unchanged.
 
 In our MVC calculator, we will need to change the view component in order to make the code run on both a console and a GUI. For the most part, we can keep the model and the controller code the same because the background operations will be the same. The only parts of the model that might change is the way the variables are stored or etc (since input is being typed, not clicked).
