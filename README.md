@@ -12,6 +12,16 @@ Password to login: Legit
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
+1. Ah ha participation 5 pts
+
+2. Self grade. Show how you have engaged  in  your assignment.  Site an individual checkin, individual block of code that has your name in the data  5 pts
+
+3. Scrum team grade. Let your code, readme, comments, and UI  do the talking for your project 15 pts
+
+1. Pranav presented during the Aha presentation and talked about the JFrame.
+2. Aryan - 5/5. This week I tried to experiment with BlueJ and also tried brainstorming several ideas for the new MVC Calculator GUI. 
+3. 14/15 we gave ourselves this score because we couldn't work on implementing the code behind our new Calculator GUI. Also we didn't add any new funcitons to the calculator this week.
+
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
 
 Model: The model aspect of the code is the overall structure of the code. In our calculator, our model could include the history and anything that "controls" the code. The background processes that take place are part of the model code. This could include setting the variables, changing the display, and etc. In an MVC project, the model code will not change as long as the purpose of the code remains the same. Since the model is the "theoretical" stuff behind the actual program, using the same model will allow us to reuse code. 
