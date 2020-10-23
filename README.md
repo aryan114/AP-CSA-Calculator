@@ -20,7 +20,7 @@ ________________________________________________________________________________
 
 1. Pranav presented during the Aha presentation and talked about the JFrame. Our A Ha moment was our conceptual understanding of JPanels and JFrames. We understood that all the UI changes were made to the JPanel which was then added to the JFrame. The JFrame is kind of like the container which stores the JPanel and displays that.
 
-2. Aryan - 5/5. This week I tried to experiment with BlueJ and also tried brainstorming several ideas for the new MVC Calculator GUI.
+2. Aryan - 4/5. This week I tried to experiment with BlueJ and also tried brainstorming several ideas for the new MVC Calculator GUI. However, I was not able to add the code to the new GUI form over the weekend and therefore I docked myself a point. I also was not able to get a diagram of the relationships between Model, View, Control in BlueJ. 
 
 2. Pranav - 4/5. This week I spent a lot of time trying to understand MVC since this concept is pretty new for me. I outlined our ideas for the Calculator2 Project and how we could start it. In addition to understanding the fundamentals, I also worked on the Login UI. While this wasn't super complex, I just got started on it and I'm going to expand it over the next few days.
 
