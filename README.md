@@ -5,6 +5,11 @@ Main (for running the entire caluclator)
 Login.java (this is not hooked up to the main menu yet, so run the Login file individually)
 Please look at the CalculatorView form, it doesn't have any code behind it, just the display is the thing we will code over the weekend.
 
+Username to login: coderwithswag                                                                                                                                          
+
+
+Password to login: Legit
+
 _________________________________________________________________________________________________________________________________________________________________________________
 
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
