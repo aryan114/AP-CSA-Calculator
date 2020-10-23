@@ -15,6 +15,7 @@ public class Login {
     private JPasswordField PassEntry;
     private JLabel Pass;
     private JButton Verify;
+    private JLabel welcome;
 
     public Login() {
         Verify.addActionListener(new ActionListener() {

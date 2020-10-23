@@ -52,7 +52,7 @@ public class MainMenu extends JFrame {
         // Content Panel to add Label and Image
         //https://docs.oracle.com/javase/tutorial/uiswing/components/rootpane.html
         Container content = getContentPane();
-        content.setBackground(new Color(100,100,255));
+        content.setBackground(new Color(100,67,255));
         content.add(pic);
 
         // Menu Objects
@@ -67,13 +67,15 @@ public class MainMenu extends JFrame {
 
         JMenu mnApTest = new JMenu("AP Test");
         menuBar.add(mnApTest);
-
+/*
         JMenuItem mntmApReview = new JMenuItem("Review");
         mntmApReview.addActionListener(e -> {
             AP_UI frame = new AP_UI();
             frame.setVisible(true);
         });
         mnApTest.add(mntmApReview);
+
+ */
 
         JMenu mnJig = new JMenu("Labs");
         menuBar.add(mnJig);
@@ -84,13 +86,24 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(mntmCalculator);
+/*
+        JMenuItem mntmLogin = new JMenuItem("Login Screen");
+        mntmLogin.addActionListener(e -> {
+            LoginScreen frame = new LoginScreen();
+            frame.setVisible(true);
+        });
+        mnJig.add(mntmLogin);
 
+ */
+/*
         JMenuItem mntmMethodSearch = new JMenuItem("File Search");
         mntmMethodSearch.addActionListener(e -> {
             MethodSearchUI frame = new MethodSearchUI();
             frame.setVisible(true);
         });
 
+ */
+/*
         JMenuItem mntmPalindrome = new JMenuItem("Palindrome");
         mntmPalindrome.addActionListener(e -> {
             PalindromeUI frame = new PalindromeUI();
@@ -99,13 +112,15 @@ public class MainMenu extends JFrame {
         mnJig.add(mntmPalindrome);
         mnJig.add(mntmMethodSearch);
 
+
+
         JMenuItem mntmProgrammingLanguages = new JMenuItem("Model Search");
         mntmProgrammingLanguages.addActionListener(e -> {
             ProgLang_UI frame = new ProgLang_UI();
             frame.setVisible(true);
         });
         mnJig.add(mntmProgrammingLanguages);
-
+ */
 
     }
 

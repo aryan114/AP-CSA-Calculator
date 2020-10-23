@@ -2,10 +2,10 @@ package util;
 
 public class Math {
 	
-	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS, LN	 };
+	public static enum OPERATOR { NOOP, PLUS, MINUS, DIVIDE, MULTIPLY, SQUARE, POWER, SIN, COSINE, TAN, SINVERSE, CINVERSE, TINVERSE, ROOTS, LN, PI, EULER};
 	public static double calculateIt(double arg1, OPERATOR mathOp, double arg2) {
 		
-		double calcAnswer;		
+		double calcAnswer =0;
 		switch(mathOp)
 	    {
 	        case PLUS:
@@ -49,6 +49,12 @@ public class Math {
 				break;
 			case LN:
 				calcAnswer = java.lang.Math.log(arg1);
+				break;
+			case PI:
+				arg1 = 3.14159265;
+				break;
+			case EULER:
+				arg1 = 2.718;
 				break;
 	        case NOOP:
 	        default:	

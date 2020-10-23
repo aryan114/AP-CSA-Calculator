@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/mvc-idea.iml" filepath="$PROJECT_DIR$/mvc-idea.iml" />
+      <module fileurl="file://$PROJECT_DIR$/APCSACalculator.iml" filepath="$PROJECT_DIR$/APCSACalculator.iml" />
     </modules>
   </component>
 </project>

@@ -2,7 +2,7 @@
   <artifact type="jar" name="mvc-idea:jar">
     <output-path>$PROJECT_DIR$/out/artifacts/mvc_idea_jar</output-path>
     <root id="archive" name="mvc-idea.jar">
-      <element id="module-output" name="mvc-idea" />
+      <element id="module-output" name="APCSACalculator" />
     </root>
   </artifact>
 </component>
