@@ -24,4 +24,7 @@ The view part of the code is important because first of all, it sets the initial
 In our MVC calculator, we will need to change the view component in order to make the code run on both a console and a GUI. For the most part, we can keep the model and the controller code the same because the background operations will be the same. The only parts of the model that might change is the way the variables are stored or etc (since input is being typed, not clicked).
 
 
-
+FILES TO RUN:
+Main (for running the entire caluclator)
+Login.java (this is not hooked up to the main menu yet, so run the Login file individually)
+Please look at the CalculatorView form, it doesn't have any code behind it, just the display is the thing we will code over the weekend.
