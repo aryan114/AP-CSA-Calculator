@@ -1,4 +1,4 @@
-# AP-CSA-Calculator-Aryan-and-Pranav
+# AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
 
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
 
