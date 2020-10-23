@@ -1,5 +1,12 @@
 # AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
 
+FILES TO RUN:
+Main (for running the entire caluclator)
+Login.java (this is not hooked up to the main menu yet, so run the Login file individually)
+Please look at the CalculatorView form, it doesn't have any code behind it, just the display is the thing we will code over the weekend.
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
 
 Model: The model aspect of the code is the overall structure of the code. In our calculator, our model could include the history and anything that "controls" the code. The background processes that take place are part of the model code. This could include setting the variables, changing the display, and etc. In an MVC project, the model code will not change as long as the purpose of the code remains the same. Since the model is the "theoretical" stuff behind the actual program, using the same model will allow us to reuse code. 
@@ -22,6 +29,5 @@ Think about the View impact of coding to alternate platforms in todays computing
 The view part of the code is important because first of all, it sets the initial impression for the program. The better it looks, the higher the chances of the user looking/using the program. But from a coding point of view, the view part of MVC is important because it creates the layout for the OS that its being run on. While the view component might be changed in order to match the device/system that it runs on, the general model and control remain the same since the background operations are unchanged.
 
 In our MVC calculator, we will need to change the view component in order to make the code run on both a console and a GUI. For the most part, we can keep the model and the controller code the same because the background operations will be the same. The only parts of the model that might change is the way the variables are stored or etc (since input is being typed, not clicked).
-
 
 
