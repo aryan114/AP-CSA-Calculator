@@ -665,6 +665,28 @@ public class CalculatorUI extends JFrame {
 		button_ln.setBackground(Color.ORANGE);
 		button_ln.setBounds(501, 242, 75, 40);
 		getContentPane().add(button_ln);
+
+		JButton button_pi = new JButton("PI");
+		button_pi.addMouseListener(new MouseAdapter() {
+			@Override
+			public void mousePressed(MouseEvent e) {
+				button_pi.setBackground(Color.BLACK);
+			}
+
+			public void mouseReleased(MouseEvent e) {
+				button_pi.setBackground(Color.ORANGE);
+			}
+		});
+		button_pi.addActionListener(e -> {
+			square();
+			saveValueOfMathOp(OPERATOR.PI);
+		});
+		button_pi.setOpaque(true);
+		button_pi.setForeground(Color.BLACK);
+		button_pi.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+		button_pi.setBackground(Color.ORANGE);
+		button_pi.setBounds(501, 300, 75, 40);
+		getContentPane().add(button_pi);
 		
 		JLabel lblourCalculator = new JLabel("Aryan and Pranav's Calculator");
 		lblourCalculator.setBounds(6, 300, 250, 16);
