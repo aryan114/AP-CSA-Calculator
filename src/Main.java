@@ -1,3 +1,4 @@
+
 import view_control.MainMenu;
 
 public class Main {

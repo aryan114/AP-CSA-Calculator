@@ -3,6 +3,8 @@
 
 package LoginToProject;
 
+import view_control.MainMenu;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -26,6 +28,7 @@ public class Login {
 
                 if(username.equals("coderwithswag") && password.equals("Legit")){
                     LoginMessage.setText("You're in!");
+                    MainMenu.main(null);
                 } else{
                     LoginMessage.setText("Wrong Credentials!");
                 }
