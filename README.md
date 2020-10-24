@@ -22,7 +22,7 @@ ________________________________________________________________________________
 
 2. Aryan - 4/5. This week I tried to experiment with BlueJ and also tried brainstorming several ideas for the new MVC Calculator GUI. However, I was not able to add the code to the new GUI form over the weekend and therefore I docked myself a point. I also was not able to get a diagram of the relationships between Model, View, Control in BlueJ. 
 
-2. Praveen - 4/5. This week I spent a lot of time trying to understand MVC since this concept is pretty new for me. I outlined our ideas for the Calculator2 Project and how we could start it. In addition to understanding the fundamentals, I also worked on the Login UI. While this wasn't super complex, I just got started on it and I'm going to expand it over the next few days.
+2. Pranav - 4/5. This week I spent a lot of time trying to understand MVC since this concept is pretty new for me. I outlined our ideas for the Calculator2 Project and how we could start it. In addition to understanding the fundamentals, I also worked on the Login UI. While this wasn't super complex, I just got started on it and I'm going to expand it over the next few days.
 
 Praveen - 4/5. This week, I spent a lot of time learning about Jframe, and appying the concepts to code in GUI java. I am not used to this form factor, so I spent a lot of time reviewing youtube videos in order to familiarize myself with the project. I did a little bit of coding, with redirecting the login UI to the main menu, and also spent time on the GUI for my ecommerce website, adding the basic buttons and overall layout. I took off a point because I felt like I could have dome more in terms of code, rather than spend so much time researching.
 
