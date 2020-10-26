@@ -12,6 +12,25 @@ Password to login: Legit
 
 _________________________________________________________________________________________________________________________________________________________________________________
 
+1. Ah ha participation 5 pts
+
+2. Self grade. Show how you have engaged  in  your assignment.  Site an individual checkin, individual block of code that has your name in the data  5 pts
+
+3. Scrum team grade. Let your code, readme, comments, and UI  do the talking for your project 15 pts
+
+1. Pranav presented during the Aha presentation and talked about the JFrame. Our A Ha moment was our conceptual understanding of JPanels and JFrames. We understood that all the UI changes were made to the JPanel which was then added to the JFrame. The JFrame is kind of like the container which stores the JPanel and displays that.
+
+2. Aryan - 4/5. This week I tried to experiment with BlueJ and also tried brainstorming several ideas for the new MVC Calculator GUI. However, I was not able to add the code to the new GUI form over the weekend and therefore I docked myself a point. I also was not able to get a diagram of the relationships between Model, View, Control in BlueJ. 
+
+2. Pranav - 4/5. This week I spent a lot of time trying to understand MVC since this concept is pretty new for me. I outlined our ideas for the Calculator2 Project and how we could start it. In addition to understanding the fundamentals, I also worked on the Login UI. While this wasn't super complex, I just got started on it and I'm going to expand it over the next few days.
+
+Praveen - 4/5. This week, I spent a lot of time learning about Jframe, and appying the concepts to code in GUI java. I am not used to this form factor, so I spent a lot of time reviewing youtube videos in order to familiarize myself with the project. I did a little bit of coding, with redirecting the login UI to the main menu, and also spent time on the GUI for my ecommerce website, adding the basic buttons and overall layout. I took off a point because I felt like I could have dome more in terms of code, rather than spend so much time researching.
+
+3. 14/15 we gave ourselves this score because we couldn't work on implementing the code behind our new Calculator GUI. Also we didn't add any new funcitons to the calculator
+this week.
+
+_________________________________________________________________________________________________________________________________________________________________________________
+
 What organization or reuse strategies will lead to minimizing Control and Model code?  MVC?
 
 Model: The model aspect of the code is the overall structure of the code. In our calculator, our model could include the history and anything that "controls" the code. The background processes that take place are part of the model code. This could include setting the variables, changing the display, and etc. In an MVC project, the model code will not change as long as the purpose of the code remains the same. Since the model is the "theoretical" stuff behind the actual program, using the same model will allow us to reuse code. 
