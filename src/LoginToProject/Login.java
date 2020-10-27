@@ -10,6 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.*;
 import java.awt.*;
+import LoginToProject.NewUser.*;
 
 public class Login {
     private JPanel LoginPanel;
@@ -44,7 +45,7 @@ public class Login {
         newUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Create New User
+            NewUser.main(null);
             }
         });
     }

@@ -9,4 +9,8 @@ public class NewUser {
     private JLabel password;
     private JLabel username;
     private JLabel banner;
+
+    public static void main(String[] args) {
+        System.out.println("Hi");
+    }
 }
