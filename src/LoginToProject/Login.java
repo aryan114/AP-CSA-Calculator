@@ -42,6 +42,7 @@ public class Login {
                 }
             }
         });
+
         newUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -52,7 +53,7 @@ public class Login {
 
     public static void main(String[] args) {
         JFrame log = new JFrame("Login");
-        log.setSize(400,300);
+        log.setSize(500,300);
         log.setContentPane(new Login().LoginPanel);
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
