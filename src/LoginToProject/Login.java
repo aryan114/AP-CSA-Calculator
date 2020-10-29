@@ -10,6 +10,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.*;
 import java.awt.*;
+import LoginToProject.NewUser.*;
 
 public class Login {
     private JPanel LoginPanel;
@@ -41,17 +42,18 @@ public class Login {
                 }
             }
         });
+
         newUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                //Create New User
+            NewUser.main(null);
             }
         });
     }
 
     public static void main(String[] args) {
         JFrame log = new JFrame("Login");
-        log.setSize(400,300);
+        log.setSize(500,300);
         log.setContentPane(new Login().LoginPanel);
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 

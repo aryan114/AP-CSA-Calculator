@@ -52,7 +52,7 @@ public class MainMenu extends JFrame {
         // Content Panel to add Label and Image
         //https://docs.oracle.com/javase/tutorial/uiswing/components/rootpane.html
         Container content = getContentPane();
-        content.setBackground(new Color(100,67,255));
+        content.setBackground(new Color(212, 14, 14));
         content.add(pic);
 
         // Menu Objects
@@ -80,7 +80,7 @@ public class MainMenu extends JFrame {
         JMenu mnJig = new JMenu("Labs");
         menuBar.add(mnJig);
 
-        JMenuItem mntmCalculator = new JMenuItem("Calculator");
+        JMenuItem mntmCalculator = new JMenuItem("Aryan and Pranav Calculator");
         mntmCalculator.addActionListener(e -> {
             CalculatorUI frame = new CalculatorUI();
             frame.setVisible(true);

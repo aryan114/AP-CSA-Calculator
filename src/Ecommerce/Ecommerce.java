@@ -1,3 +1,4 @@
+package Ecommerce;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -28,7 +29,7 @@ public class Ecommerce {
 
         ViewItems.setBounds(225, 400, 200, 200);
         ViewInventory.setBounds(500, 400, 200, 200);
-        Checkout.setBounds(388, 700, 200, 200);
+        Checkout.setBounds(380, 700, 200, 200);
         welcome.setBounds(375, 0, 200, 200);
         Image.setBounds(100, 100, 200, 200);
 
@@ -36,6 +37,7 @@ public class Ecommerce {
         estore.add(ViewInventory);
         estore.add(welcome);
         estore.add(Checkout);
+        estore.add(Image);
 
 
     }
