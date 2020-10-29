@@ -54,6 +54,7 @@ public class Ecommerce extends Items {
         ViewInventory.addActionListener(e -> {
             Items items = new Items();
             items.setVisible(true);
+            estore.add(items);
         });
         estore.add(ViewInventory);
         estore.add(welcome);

@@ -34,10 +34,10 @@ public class NewUser {
                 credentials.put(usertemp, passtemp);
                 System.out.println(credentials);
 
-                //From here, make the hasmap accessible to the code in Login.java. You can just then just write if statement in the Login.java where it checks the credentials.
+                //From here, make the hashmap accessible to the code in Login.java. You can just then just write if statement in the Login.java where it checks the credentials.
                 //You can save the key as the username var and then get the value. Then compare the value with the given password. If it's right, let em in. If not, call it incorrect.
                 //First task is to figure out how to make the hashmap accessible to the other file.
-                //Hasmap help: https://codehs.gitbooks.io/apjava/content/Data-Structures/hashmaps.html
+                //Hashmap help: https://codehs.gitbooks.io/apjava/content/Data-Structures/hashmaps.html
 
             /*
                 for(int i =0; i < usernames.size(); i++){

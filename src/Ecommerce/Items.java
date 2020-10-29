@@ -1,3 +1,4 @@
+
 package Ecommerce;
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -15,6 +16,7 @@ public class Items extends JFrame {
     private JLabel pencils;
     private JLabel lemonade;
     private JLabel chips;
+    private JPanel panel1;
 
     public static void main(String[] args) {
         JFrame items = new JFrame();
