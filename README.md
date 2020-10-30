@@ -22,10 +22,9 @@ Aryan (Total: )
 
 | Goals | Status |
 | --- | --- |
-| Make the Pythagoras Calculator Lab. In this lab the user enters the two legs of their triangles, and then when they press calculate the hypotenuse of the triangle is displayed. | Made the JForm of the Pythagoras calculator, added more blues to the form to make it look better than the original grey.|
-| Helped Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting. |
-| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| Really get started on the calculator part 2. This week was a mix of everything for me. I want to implement more MVC ideas off the calculator.. |
-| Help Pranav more with the Login feature and implement MVC into the login features.|
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed.|
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| I added new colors to the Pythagoras JForm to make look better and more profressional. |
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose. | Helped Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting.|
 
 Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab.
 
