@@ -1,6 +1,7 @@
 package view_control;
 
 import Ecommerce.Ecommerce;
+import Pythagoras.Pythagoras;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -89,6 +90,15 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(mntmCalculator);
+/*
+        JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
+        mntmCalculator.addActionListener(e -> {
+            Pythagoras triangle = new Pythagoras();
+            triangle.setVisible(true);
+        });
+        mnJig.add(mntmPythagoras);
+
+ */
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");

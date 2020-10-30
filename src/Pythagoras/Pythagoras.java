@@ -43,5 +43,6 @@ public class Pythagoras {
         triangle.setContentPane(new Pythagoras().Panel);
         triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         triangle.setVisible(true);
+
     }
 }
