@@ -1,7 +1,7 @@
 # AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
 Week 8:
 
-Pranav:
+Pranav
 Goals:
 
 Improve the View aspect of the Login GUI (add color and make it look better)
@@ -17,6 +17,21 @@ My score is a 19/20 for this week's grading. I was able to meet all my goals thi
 I was also able to add code that opened the panels in the right order (NewUser panel opens up when New Account button is clicked) []. I got started on code for the NewUser panel so that users can make their own account when they need to access project, but this is still a work in progress. This code is commented out as it doesn't work yet []. I'll be working on this over the weekend. I also feel better with the JFrame and Swing commands after working on the Login stuff. Therefore, because I feel like I reasonably achieved my goals, my score is a 19/20.
 
 Scrum Master score:
+
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Aryan Goals:
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Praveen Goals:
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Arnav Goals:
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 
 
