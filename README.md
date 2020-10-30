@@ -1,7 +1,7 @@
 # AP-CSA-Calculator-The-Coders-Period-1
 Week 8:
 
-Files to run: 
+Files to run: Login.java, Main.java (for calculator but nothing new is added), Ecommerce.java, Items.java, Pythagoras.java
 
 Pranav (Total: 18 + 5 = 23/25)
 
