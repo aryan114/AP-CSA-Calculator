@@ -1,45 +1,49 @@
 # AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
 Week 8:
 
-Pranav
-Goals:
+Pranav (Total: )
 
-Improve the View aspect of the Login GUI (add color and make it look better)
-
-Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order)
-
-Get started on the code for the New User JFrame
-
-Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week
-
-
-My score is a 19/20 for this week's grading. I was able to meet all my goals this week. For example, I was created the New User frame and brushed up its aesthetics [].
-I was also able to add code that opened the panels in the right order (NewUser panel opens up when New Account button is clicked) []. I got started on code for the NewUser panel so that users can make their own account when they need to access project, but this is still a work in progress. This code is commented out as it doesn't work yet []. I'll be working on this over the weekend. I also feel better with the JFrame and Swing commands after working on the Login stuff. Therefore, because I feel like I reasonably achieved my goals, my score is a 19/20.
-
-Scrum Master score:
-
-| Goals | Scoring |
+| Goals | Status |
 | --- | --- |
-| Improve the View aspect of the Login GUI (add color and make it look better) | Added color to all the JFrames instead of the regular grey look [] |
-| Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order) | Panels open in correct order [] |
-| Get started on the code for the New User JFrame | Code doesn't work yet, so it's commented out, but I was able to get the credentials to store in a hashmap [] |
-| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels [] |
+| Improve the View aspect of the Login GUI (add color and make it look better). | Added color to all the JFrames instead of the regular grey look []. Added borders and highlights to some buttons. |
+| Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order). | Panels open in correct order []. For example, NewUser panel opens up when Create a New Account button is clicked. Also, main menu opens up when user logs in. |
+| Get started on the code for the New User JFrame | Code doesn't work yet, so it's commented out, but I was able to get the credentials to store in a hashmap []. I will work on this more over the weekend and next week to get it working. |
+| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels []. I understand these much better, including creating them and using them through different commands. |
+
+Self Scoring: My score for this week is a 19/20. I was able to achieve all my goals and I feel good about my work and learning.
+
+Scrum Master score: 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Aryan Goals:
 
+| Goals | Status |
+| --- | --- |
+
+Self Scoring: 
+
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Praveen Goals:
 
-Scrum Master score:
+| Goals | Status |
+| --- | --- |
+
+Self Scoring: 
+
+Scrum Master Scoring: 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 Arnav Goals:
 
-Scrum Master score:
+| Goals | Status |
+| --- | --- |
+
+Self Scoring: 
+
+Scrum Master Scoring:
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
