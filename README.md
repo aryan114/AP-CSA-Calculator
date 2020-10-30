@@ -10,7 +10,7 @@ Pranav (Total: )
 | Get started on the code for the New User JFrame | I was able to get the credentials to store in a hashmap []. After talking Mr. M, I need to focus more on a MVC approach since current strategy doesn't work. I will work on this more over the weekend and next week to get it working. |
 | Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels []. I understand these much better, including creating them and using them through different commands. |
 
-Self Scoring: My score for this week is a 19/20. I was able to achieve all my goals and I feel good about my work and learning.
+Self Scoring: My score for this week is a 19/20. I was able to achieve all my goals and I feel good about my work and learning this week.
 
 Scrum Master score: 
 
