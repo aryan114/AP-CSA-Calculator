@@ -18,6 +18,15 @@ I was also able to add code that opened the panels in the right order (NewUser p
 
 Scrum Master score:
 
+| Goals | Scoring |
+| --- | --- |
+| Improve the View aspect of the Login GUI (add color and make it look better) | Added color to all the JFrames instead of the regular grey look [] |
+
+| Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order) | Panels open in correct order [] |
+
+| Get started on the code for the New User JFrame | Code doesn't work yet, so it's commented out, but I was able to get the credentials to store in a hashmap [] |
+
+| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels [] |
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
