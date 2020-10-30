@@ -1,4 +1,4 @@
-# AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
+# AP-CSA-Calculator-The-Coders-Period-1
 Week 8:
 
 Pranav (Total: )
