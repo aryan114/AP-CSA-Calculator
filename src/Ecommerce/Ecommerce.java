@@ -20,7 +20,6 @@ public class Ecommerce extends JFrame {
         JPanel estore = new JPanel();
         JLabel welcome = new JLabel("Welcome to the ecommerce store!");
         JLabel Image = new JLabel(new ImageIcon("486.png"));
-
         frame.setSize(1000, 1000);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
