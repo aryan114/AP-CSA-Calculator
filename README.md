@@ -10,7 +10,7 @@ Pranav (Total: )
 | Improve the View aspect of the Login GUI (add color and make it look better). | Added color to all the JFrames instead of the regular grey look []. Added borders and highlights to some buttons. |
 | Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order). | Panels open in correct order []. For example, NewUser panel opens up when Create a New Account button is clicked. Also, main menu opens up when user logs in. The sequential order of the panels is correct. |
 | Get started on the code for the New User JFrame | I was able to get the credentials to store in a hashmap []. After talking Mr. M, I need to focus more on a MVC approach since current strategy doesn't work. Here is my start: []. I will work on this more over the weekend and next week to get it working. My work is commented out as it doesn't work perfectly. |
-| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels []. I understand these much better, including creating them and using them through different commands. |
+| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels []. I understand these much better, including creating them and using them through different commands. I was also able to customize the JPanel with new menu items. |
 
 Self Scoring: My score for this week is a 19/20. I was able to achieve all my goals and I feel good about my work and learning this week.
 
