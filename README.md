@@ -32,7 +32,7 @@ Scrum Master score: I give myself a 4/5 because I made some progress on the Ecom
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-Praveen (Total: 18 + 5 = 23/25 )
+Praveen (Total: 18 + 5 = 22/25 )
 
 | Goals | Status |
 | --- | --- |
@@ -43,7 +43,7 @@ Praveen (Total: 18 + 5 = 23/25 )
 
 Self Scoring: My score for this week is a 18/20. I was not able to achive all the goals from this week, so I docked myself 2 points. I was able to help my teammates though and make good progress on the ecommerce website
 
-Scrum Master Scoring: Praveen's score is a 5/5 because Praveen got a lot done in the Ecommerce project and also helped the others out. He helped resolve some GitHub issues and helped others with their code. 
+Scrum Master Scoring: Praveen's score is a 4/5 because Praveen got a lot done in the Ecommerce project and also helped the others out. He helped resolve some GitHub issues and helped others with their code. Praveen wasn't able to put his tangible links in the READme for me to view, so I don't know exactly what his progress was.
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
