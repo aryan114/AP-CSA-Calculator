@@ -3,7 +3,7 @@ Week 8:
 
 Files to run: 
 
-Pranav (Total: )
+Pranav (Total: 18 + 5 = 23/25)
 
 | Goals | Status |
 | --- | --- |
