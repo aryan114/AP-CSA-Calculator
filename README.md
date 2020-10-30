@@ -52,7 +52,7 @@ Arnav (Total: )
 | Goals | Status |
 | --- | --- |
 
-Self Scoring: 
+Self Scoring: I gave myself an 18/20 this week. I felt that I worked as much as I could on the slap jack game. I will importantly note though that I did not have a computer to wrork with for a approximately 2 days wwhich hindered my ability to make code. In the end, I was able to work very hard on my slap jack game and get it to run well. 
 
 Scrum Master Scoring: Arnav's score for this week is a 4/5 because he spent a lot of time making the slapjack game but he could have done more at the beginning of the week.
 
