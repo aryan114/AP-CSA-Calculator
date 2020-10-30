@@ -14,7 +14,7 @@ Pranav (Total: )
 
 Self Scoring: My score for this week is a 18/20. I was able to achieve all my goals and I feel good about my work and learning this week.
 
-Scrum Master score: Pranav's score is a 5/5 because
+Scrum Master score: Pranav's score is a 5/5 because he worked on the Login stuff and he achieved all of his goals. He still has more work to do on the Login project but he got a lot done this week.
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -25,7 +25,9 @@ Aryan (Total: )
 | Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed. |
 | Really get started on the calculator part 2. This week was a mix of everything for me. I want to implement more MVC ideas off the calculator. | | Help Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting. |
 
-Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab. 
+Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab.
+
+Scrum Master score: I give myself a 4/5 because I made some progress on the Ecommerce stuff and pythagoras lab but I felt like I could have done a little more.
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -40,7 +42,7 @@ Praveen (Total: )
 
 Self Scoring: My score for this week is a 18/20. I was not able to achive all the goals from this week, so I docked myself 2 points. I was able to help my teammates though and make good progress on the ecommerce website
 
-Scrum Master Scoring: 
+Scrum Master Scoring: Praveen's score is a 5/5 because Praveen got a lot done in the Ecommerce project and also helped the others out. He helped resolve some GitHub issues and helped others with their code. 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
@@ -51,7 +53,7 @@ Arnav (Total: )
 
 Self Scoring: 
 
-Scrum Master Scoring:
+Scrum Master Scoring: Arnav's score for this week is a 4/5 because he spent a lot of time making the slapjack game but he could have done more at the beginning of the week.
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
