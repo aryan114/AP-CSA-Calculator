@@ -1,5 +1,7 @@
 package view_control;
 
+import Ecommerce.Ecommerce;
+
 import java.awt.Color;
 import java.awt.Container;
 import java.awt.EventQueue;
@@ -67,6 +69,7 @@ public class MainMenu extends JFrame {
 
         JMenu mnApTest = new JMenu("AP Test");
         menuBar.add(mnApTest);
+
 /*
         JMenuItem mntmApReview = new JMenuItem("Review");
         mntmApReview.addActionListener(e -> {
@@ -86,6 +89,18 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(mntmCalculator);
+
+/*
+        JMenuItem ecommerce = new JMenuItem("Ecommerce");
+        ecommerce.addActionListener(e -> {
+            Ecommerce frame = new Ecommerce();
+            frame.setVisible(true);
+        });
+        mnJig.add(ecommerce);
+
+ */
+
+
 /*
         JMenuItem mntmLogin = new JMenuItem("Login Screen");
         mntmLogin.addActionListener(e -> {
