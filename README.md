@@ -22,7 +22,7 @@ Aryan (Total: )
 
 | Goals | Status |
 | --- | --- |
-| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed.|
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed. [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Pythagoras/Pythagoras.java#L3] |
 | Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| I added new colors to the Pythagoras JForm to make look better and more profressional. |
 | Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose. | Helped Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting.|
 
