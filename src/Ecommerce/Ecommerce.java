@@ -1,10 +1,11 @@
+
 package Ecommerce;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Ecommerce {
+public class Ecommerce extends JFrame {
     private JButton ViewItems;
     private JButton ViewInventory;
     private JPanel estore;
@@ -42,3 +43,4 @@ public class Ecommerce {
 
     }
 }
+

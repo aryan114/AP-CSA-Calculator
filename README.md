@@ -1,4 +1,74 @@
-# AP-CSA-Calculator-Aryan-and-Pranav: Calculator2 Ideas and Basic Principles
+# AP-CSA-Calculator-The-Coders-Period-1
+Week 8:
+
+Files to run: 
+
+Pranav (Total: 18 + 5 = 23/25)
+
+| Goals | Status |
+| --- | --- |
+| Improve the View aspect of the Login GUI (add color and make it look better). | Added color to all the JFrames instead of the regular grey look [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/Login.java#L24]. Added borders and highlights to some buttons. |
+| Be able to consequently open the right panels in the right order (code the JFrames so that they open and close in the right order). | Panels open in correct order [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/Login.java#L59]. For example, NewUser panel opens up when Create a New Account button is clicked. Also, main menu opens up when user logs in. The sequential order of the panels is correct. |
+| Get started on the code for the New User JFrame | I was able to get the credentials to store in a hashmap [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/NewUser.java#L47]. After talking Mr. M, I need to focus more on a MVC approach since current strategy doesn't work. Here is my start: [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/credstore.java#L12]. I will work on this more over the weekend and next week to get it working. My work is commented out as it doesn't work perfectly. |
+| Since I’m not yet completely familiar with JFrame, my goal is to feel very confident with the swing this week | I feel much better with JFrames/Swing, proof is Login Panels [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/Login.java#L2]. I understand these much better, including creating them and using them through different commands. I was also able to customize the JPanel with new menu items. |
+
+Self Scoring: My score for this week is a 18/20. I was able to achieve all my goals and I feel good about my work and learning this week.
+
+Scrum Master score: Pranav's score is a 5/5 because
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Aryan (Total: )
+
+| Goals | Status |
+| --- | --- |
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed. |
+| Really get started on the calculator part 2. This week was a mix of everything for me. I want to implement more MVC ideas off the calculator. | | Help Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting. |
+
+Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab. 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Praveen (Total: )
+
+| Goals | Status |
+| --- | --- |
+| Add more pages to the ecommerce website | |
+| Make a counter that says how much money is in your cart | |
+| Make all the pages functional | |
+| Help out with any bugs that my group may have | |
+
+Self Scoring: 
+
+Scrum Master Scoring: 
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+Arnav (Total: )
+
+| Goals | Status |
+| --- | --- |
+
+Self Scoring: 
+
+Scrum Master Scoring:
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+
+
+
+
+
+
+
+
+
+
+
+
+_________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 
 FILES TO RUN:
 Main (for running the entire caluclator)
