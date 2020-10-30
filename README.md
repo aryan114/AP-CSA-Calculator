@@ -21,6 +21,7 @@ Aryan (Total: )
 | Goals | Status |
 | --- | --- |
 
+
 Self Scoring: 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
@@ -29,6 +30,10 @@ Praveen (Total: )
 
 | Goals | Status |
 | --- | --- |
+| Add more pages to the ecommerce website | |
+| Make a counter that says how much money is in your cart | |
+| Make all the pages functional | |
+| Help out with any bugs that my group may have | |
 
 Self Scoring: 
 
