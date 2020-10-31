@@ -1,7 +1,7 @@
 # AP-CSA-Calculator-The-Coders-Period-1
 Week 8:
 
-Files to run: 
+Files to run: Login.java, Main.java (for calculator but nothing new is added), Ecommerce.java, Items.java, Pythagoras.java
 
 Pranav (Total: 18 + 5 = 23/25)
 
@@ -18,40 +18,44 @@ Scrum Master score: Pranav's score is a 5/5 because he worked on the Login stuff
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-Aryan (Total: )
+Aryan (Total: 18 + 4 = 22/25 )
 
 | Goals | Status |
 | --- | --- |
-| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed. |
-| Really get started on the calculator part 2. This week was a mix of everything for me. I want to implement more MVC ideas off the calculator. | | Help Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting. |
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| Made a Pythagoras calculator where the user inputs the two legs of their triangle and the hypotenuse is revealed. [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Pythagoras/Pythagoras.java#L3] |
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose.| I added new colors to the Pythagoras JForm to make look better and more profressional. [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Pythagoras/Pythagoras.form#L1] |
+| Finish the ecommerce website. This includes adding all the code to other buttons and potentially adding a cart feature for the user to see all the items they chose. | Helped Praveen with the e-commerce website, try to make it so when the user wants to see a new page, they press a button and the page pops up. Haven't finished this part yet, I'm just experimenting. But implemented an items class for later use. [https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Ecommerce/Items.java#L1] |
 
-Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab.
+Self Scoring: My score for this week is a 18/20. I wasn't able to hit all of my goals from last week but I was able to make some progress on the ecommerce website and make the Pythagoras lab fully functional and working this week. I docked myself two points because I could have done more progress with my teammates. 
 
-Scrum Master score: I give myself a 4/5 because I made some progress on the Ecommerce stuff and pythagoras lab but I felt like I could have done a little more.
+Scrum Master score: I give myself a 4/5 because I made some progress on the Ecommerce stuff and I was able to completely finish the Pythagoras Lab myself, and make the code and JForm. I also added an Items class and attempted to connect it to the main e-commerce page. But I could have done more to make progress on the calcualtor part 2. 
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-Praveen (Total: )
+Praveen (Total: 18 + 5 = 22/25 )
 
 | Goals | Status |
 | --- | --- |
-| Add more pages to the ecommerce website |I added the homepage to the ecommerce website as well as the main menu where you buy stuff from|
+| Add more pages to the ecommerce website |I added the homepage to the ecommerce website as well as the main menu where you buy stuff from https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Ecommerce/Ecommerce.java|
 | Make a counter that says how much money is in your cart |I did not get this to work this week, but I will finish it by next week|
 | Make all the pages functional |I made most of the pages functional, such as the home page as well as the page where items are being bought|
-| Help out with any bugs that my group may have |I did help out with all the problems my group had, such as trouble commiting to github as well as adding comments and more functionality to Pranav's login code|
+| Help out with any bugs that my group may have |I did help out with all the problems my group had, such as trouble commiting to github as well as adding comments and more functionality to Pranav's login code https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/Login.java#L58|
 
 Self Scoring: My score for this week is a 18/20. I was not able to achive all the goals from this week, so I docked myself 2 points. I was able to help my teammates though and make good progress on the ecommerce website
 
-Scrum Master Scoring: Praveen's score is a 5/5 because Praveen got a lot done in the Ecommerce project and also helped the others out. He helped resolve some GitHub issues and helped others with their code. 
+Scrum Master Scoring: Praveen's score is a 4/5 because Praveen got a lot done in the Ecommerce project and also helped the others out. He helped resolve some GitHub issues and helped others with their code. Praveen wasn't able to put his tangible links in the READme for me to view, so I don't know exactly what his progress was.
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-Arnav (Total: )
+Arnav (Total: 18+4 = 22/25 )
 
 | Goals | Status |
 | --- | --- |
+| To add more functionality too the slapjack game | I added some buttons such as burn and slap. These buttons in the future will allow for the user to have time to press slap or burn a card when an 11 shows up signifying a jack |
+| Connect the game to the bigger project | I am still trying to get my game to connect but I feel that I will have my game connected by next week |
+| Add funcionality to cancel button | As of now, I am still working on the programming for what happens when the cancel button is pressed. I don't feel super comfortable with this kind of code yet but I think I will be able to get it done by net week. |
 
-Self Scoring: 
+Self Scoring: I gave myself an 18/20 this week. I felt that I worked as much as I could on the slap jack game. I will importantly note though that I did not have a computer to wrork with for a approximately 2 days wwhich hindered my ability to make code. In the end, I was able to work very hard on my slap jack game and get it to run well. 
 
 Scrum Master Scoring: Arnav's score for this week is a 4/5 because he spent a lot of time making the slapjack game but he could have done more at the beginning of the week.
 
@@ -68,6 +72,8 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 
 
 
+_________________________________________________________________________________________________________________________________________________________________________________
+_________________________________________________________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
 _________________________________________________________________________________________________________________________________________________________________________________
