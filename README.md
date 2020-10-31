@@ -50,7 +50,7 @@ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
 Arnav (Total: 18+4 = 22/25 )
 
 | Goals | Status |
-
+| --- | --- |
 | To add more functionality too the slapjack game | I added some buttons such as burn and slap. These buttons in the future will allow for the user to have time to press slap or burn a card when an 11 shows up signifying a jack |
 | Connect the game to the bigger project | I am still trying to get my game to connect but I feel that I will have my game connected by next week |
 | Add funcionality to cancel button | As of now, I am still working on the programming for what happens when the cancel button is pressed. I don't feel super comfortable with this kind of code yet but I think I will be able to get it done by net week. |
