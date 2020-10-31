@@ -36,10 +36,10 @@ Praveen (Total: 18 + 5 = 22/25 )
 
 | Goals | Status |
 | --- | --- |
-| Add more pages to the ecommerce website |I added the homepage to the ecommerce website as well as the main menu where you buy stuff from|
+| Add more pages to the ecommerce website |I added the homepage to the ecommerce website as well as the main menu where you buy stuff from https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Ecommerce/Ecommerce.java|
 | Make a counter that says how much money is in your cart |I did not get this to work this week, but I will finish it by next week|
 | Make all the pages functional |I made most of the pages functional, such as the home page as well as the page where items are being bought|
-| Help out with any bugs that my group may have |I did help out with all the problems my group had, such as trouble commiting to github as well as adding comments and more functionality to Pranav's login code|
+| Help out with any bugs that my group may have |I did help out with all the problems my group had, such as trouble commiting to github as well as adding comments and more functionality to Pranav's login code https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/LoginToProject/Login.java#L58|
 
 Self Scoring: My score for this week is a 18/20. I was not able to achive all the goals from this week, so I docked myself 2 points. I was able to help my teammates though and make good progress on the ecommerce website
 
