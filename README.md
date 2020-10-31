@@ -47,10 +47,13 @@ Scrum Master Scoring: Praveen's score is a 4/5 because Praveen got a lot done in
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-Arnav (Total: )
+Arnav (Total: 18+4 = 22/25 )
 
 | Goals | Status |
-| --- | --- |
+
+| To add more functionality too the slapjack game | I added some buttons such as burn and slap. These buttons in the future will allow for the user to have time to press slap or burn a card when an 11 shows up signifying a jack |
+| Connect the game to the bigger project | I am still trying to get my game to connect but I feel that I will have my game connected by next week |
+| Add funcionality to cancel button | As of now, I am still working on the programming for what happens when the cancel button is pressed. I don't feel super comfortable with this kind of code yet but I think I will be able to get it done by net week. |
 
 Self Scoring: I gave myself an 18/20 this week. I felt that I worked as much as I could on the slap jack game. I will importantly note though that I did not have a computer to wrork with for a approximately 2 days wwhich hindered my ability to make code. In the end, I was able to work very hard on my slap jack game and get it to run well. 
 
