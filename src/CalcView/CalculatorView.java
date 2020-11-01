@@ -22,7 +22,7 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import util.Math.OPERATOR;
 
-public class CalculatorView extends JFrame {
+public class CalculatorView {
     private JButton number1;
     private JButton number7;
     private JButton number2;
@@ -49,9 +49,11 @@ public class CalculatorView extends JFrame {
     private JButton ocosinverse;
     private JButton otaninverse;
     private JButton oroots;
-   // package view_control;
+    private JLabel answerLabel;
 
     public CalculatorView() {
+        JFrame frame = new JFrame();
+
 
     }
 
