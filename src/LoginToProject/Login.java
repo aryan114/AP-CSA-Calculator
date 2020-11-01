@@ -23,24 +23,8 @@ public class Login {
     private JLabel welcome;
     //^Components on JPanel initiation. See form for color updates.
 
-    /*
-    NewUser hmap = new NewUser();
-    private void credentialcheck(String x, String y){
-        //HashMap<String, String> credentials =
-        HashMap<String, String> hm = hmap.getCredentialsMap();
-        if (hm.get(x).equals(y)){
-            LoginMessage.setText("You're in!");
-            MainMenu.main(null);
-        } else{
-            LoginMessage.setText("Wrong Credentials!");
-        }
-    }
 
-     */
-
-    //credstore hmap = new credstore();
-    //HashMap<String,String> hm = hmap.getCreds();
-
+    credstoremodel login = credstoremodel.getInstance();
 
 
     public Login() {
@@ -49,9 +33,6 @@ public class Login {
             public void actionPerformed(ActionEvent e) {
                 String username = UserEntry.getText();
                 String password = PassEntry.getText();
-                //credentialcheck(username, password);
-
-                //hmap.checker(UserEntry, PassEntry);
 
                 if (username.equals("coderwithswag") && password.equals("Legit")) {
                     LoginMessage.setText("You're in!");
@@ -60,8 +41,20 @@ public class Login {
                 } else {
                     LoginMessage.setText("Wrong Credentials!");
                 }
+
+                if(login.getUserPassword(username).equals(password)){
+                    LoginMessage.setText("You're in!");
+                    MainMenu.main(null);
+                } else if (username.equals("coderwithswag") && password.equals("Legit")){
+                    LoginMessage.setText("You're in!");
+                    MainMenu.main(null);
+                } else {
+                    LoginMessage.setText("Wrong Credentials!");
+                }
             }
         });
+
+
         newUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -69,6 +62,7 @@ public class Login {
             }
         });
     }
+
     public static void main(String[] args) {
         JFrame log = new JFrame("Login");
         log.setSize(500,300);
@@ -76,4 +70,5 @@ public class Login {
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         log.setVisible(true);
     }
+
 }
