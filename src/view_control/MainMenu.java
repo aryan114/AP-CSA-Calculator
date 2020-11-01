@@ -90,6 +90,7 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(mntmCalculator);
+
 /*
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
         mntmCalculator.addActionListener(e -> {
