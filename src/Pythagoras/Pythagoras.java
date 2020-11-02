@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.Math;
 
-public class Pythagoras {
+public class Pythagoras extends JFrame {
     private JPanel Panel;
     private JTextField side1;
     private JTextField side2;

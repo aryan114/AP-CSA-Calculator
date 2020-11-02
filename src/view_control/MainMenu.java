@@ -91,7 +91,14 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmCalculator);
 
-/*
+        JMenuItem ecommerce = new JMenuItem("Ecommerce");
+        ecommerce.addActionListener(e -> {
+            Ecommerce frame = new Ecommerce();
+            frame.setVisible(true);
+        });
+        mnJig.add(ecommerce);
+
+
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
         mntmCalculator.addActionListener(e -> {
             Pythagoras triangle = new Pythagoras();
@@ -99,7 +106,6 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmPythagoras);
 
- */
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");
