@@ -39,7 +39,6 @@ public class Ecommerce extends JFrame {
         estore.add(Checkout);
         estore.add(Image);
 
-
     }
 }
 
