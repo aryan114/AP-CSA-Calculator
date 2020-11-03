@@ -105,6 +105,8 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmPythagoras);
 
+        
+
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");
