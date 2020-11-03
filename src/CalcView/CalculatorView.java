@@ -140,8 +140,55 @@ public class CalculatorView extends JFrame {
         osin.addActionListener(e->{
 
             CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
-            CalcControl.savemathop(OPERATOR.MULTIPLY);
+            CalcControl.savemathop(OPERATOR.SIN);
         });
+
+        ocos.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.COSINE);
+        });
+
+        otan.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.TAN);
+        });
+
+        oln.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.LN);
+        });
+
+        osininverse.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.SINVERSE);
+        });
+
+        ocosinverse.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.CINVERSE);
+        });
+
+        otaninverse.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.TINVERSE);
+        });
+
+        oroots.addActionListener(e->{
+
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.ROOTS);
+        });
+
+
+
+
+
 
         oequal.addActionListener(e->{
             CalcControl.savesnum(Double.parseDouble(CalcDisplay.getText()));
