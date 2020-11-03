@@ -8,18 +8,6 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="27a9b" class="javax.swing.JButton" binding="number1">
-        <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="93" height="30"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-1576449"/>
-          <foreground color="-4473997"/>
-          <text value="1"/>
-        </properties>
-      </component>
       <component id="9d6c8" class="javax.swing.JButton" binding="number7">
         <constraints>
           <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
@@ -289,6 +277,18 @@
         <properties>
           <font size="48"/>
           <text value=""/>
+        </properties>
+      </component>
+      <component id="27a9b" class="javax.swing.JButton" binding="number1">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-1576449"/>
+          <foreground color="-4473997"/>
+          <text value="1"/>
         </properties>
       </component>
     </children>

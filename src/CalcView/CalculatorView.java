@@ -89,7 +89,9 @@ public class CalculatorView extends JFrame {
     }
 
     public CalculatorView(CalcControl CalcControl) {
+        getContentPane().add
 /*
+
         getContentPane().add(CalcDisplay);
         getContentPane().add(number0);
         getContentPane().add(number1);
