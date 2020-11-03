@@ -100,7 +100,7 @@ public class MainMenu extends JFrame {
 
 
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
-        mntmCalculator.addActionListener(e -> {
+        mntmPythagoras.addActionListener(e -> {
             Pythagoras triangle = new Pythagoras();
             triangle.setVisible(true);
         });

@@ -137,7 +137,8 @@ public class CalculatorView extends JFrame {
             CalcControl.savemathop(OPERATOR.SQUARE);
         });
 
-        o.addActionListener(e->{
+        osin.addActionListener(e->{
+
             CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
             CalcControl.savemathop(OPERATOR.MULTIPLY);
         });
