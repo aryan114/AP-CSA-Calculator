@@ -3,7 +3,9 @@ package view_control;
 import Ecommerce.Ecommerce;
 import Pythagoras.Pythagoras;
 
-import java.awt.*;
+import java.awt.Color;
+import java.awt.Container;
+import java.awt.EventQueue;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -46,7 +48,7 @@ public class MainMenu extends JFrame {
 
         // JLabel with image
         JLabel pic = new JLabel("");
-        Image image = new ImageIcon("APCompSci.jpeg").getImage();
+        java.awt.Image image = new ImageIcon("APCompSci.jpeg").getImage();
         pic.setIcon(new ImageIcon(image));
         pic.setBounds(377, 111, 128, 128);
 
@@ -89,24 +91,31 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmCalculator);
 
+        JMenuItem ecommerce = new JMenuItem("Ecommerce");
+        ecommerce.addActionListener(e -> {
+            Ecommerce frame = new Ecommerce();
+            frame.setVisible(true);
+        });
+        mnJig.add(ecommerce);
+
 
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
         mntmCalculator.addActionListener(e -> {
-            Pythagoras frame = new Pythagoras();
-            frame.setVisible(true);
+            Pythagoras triangle = new Pythagoras();
+            triangle.setVisible(true);
         });
         mnJig.add(mntmPythagoras);
 
 
-
-        JMenuItem mntmecommerce = new JMenuItem("Ecommerce");
-        mntmecommerce.addActionListener(e -> {
+/*
+        JMenuItem ecommerce = new JMenuItem("Ecommerce");
+        ecommerce.addActionListener(e -> {
             Ecommerce frame = new Ecommerce();
             frame.setVisible(true);
         });
-        mnJig.add(mntmecommerce);
+        mnJig.add(ecommerce);
 
-
+ */
 
 
 /*
