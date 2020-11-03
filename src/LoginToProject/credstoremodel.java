@@ -26,9 +26,12 @@ public class credstoremodel {
         this.userCredentials = userCredentials;
     }
 
+
     public void addUserCredentials(String userName, String password) {
         userCredentials.put(userName, password);
     }
+
+
 
     public String getUserPassword(String userName) {
         return userCredentials.get(userName);

@@ -2,6 +2,7 @@ package view_control;
 
 import Ecommerce.Ecommerce;
 import Pythagoras.Pythagoras;
+import Temperature.Temperature;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -105,7 +106,12 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmPythagoras);
 
-        
+        JMenuItem mntmTemperature = new JMenuItem("Temperature Converter");
+        mntmTemperature.addActionListener(e-> {
+            Temperature temp = new Temperature();
+            temp.setVisible(true);
+        });
+        mnJig.add(mntmTemperature);
 
 
 /*

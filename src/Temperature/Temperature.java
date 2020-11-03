@@ -6,7 +6,7 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Temperature {
+public class Temperature extends JFrame {
     private JPanel Panel;
     private JTextField fahrenheit;
     //private JTextField celsius;
@@ -14,7 +14,11 @@ public class Temperature {
     private JButton calculate;
 
     public Temperature() {
-        JFrame frame = new JFrame();
+        ///JFrame frame = new JFrame();
+        getContentPane().add(Panel);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(500, 1000);
+
         calculate.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -28,10 +32,11 @@ public class Temperature {
     }
 
     public static void main(String[] args) {
-        JFrame convert = new JFrame("Fahrenheit to Celsius Conversion");
-        convert.setSize(500, 1000);
-        convert.setContentPane(new Temperature().Panel);
-        convert.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Temperature convert = new Temperature();
+        convert.setTitle("Fahrenheit to Celsius Conversion");
+
+        //convert.setContentPane(new Temperature().Panel);
+        //convert.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         convert.setVisible(true);
 }
 
