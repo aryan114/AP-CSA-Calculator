@@ -55,7 +55,7 @@ public class MainMenu extends JFrame {
         // Content Panel to add Label and Image
         //https://docs.oracle.com/javase/tutorial/uiswing/components/rootpane.html
         Container content = getContentPane();
-        content.setBackground(new Color(212, 14, 14));
+        content.setBackground(new Color(96, 206, 250, 255));
         content.add(pic);
 
         // Menu Objects
@@ -97,7 +97,6 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(ecommerce);
-
 
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
         mntmPythagoras.addActionListener(e -> {
