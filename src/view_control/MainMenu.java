@@ -3,9 +3,7 @@ package view_control;
 import Ecommerce.Ecommerce;
 import Pythagoras.Pythagoras;
 
-import java.awt.Color;
-import java.awt.Container;
-import java.awt.EventQueue;
+import java.awt.*;
 
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
@@ -48,7 +46,7 @@ public class MainMenu extends JFrame {
 
         // JLabel with image
         JLabel pic = new JLabel("");
-        java.awt.Image image = new ImageIcon("APCompSci.jpeg").getImage();
+        Image image = new ImageIcon("APCompSci.jpeg").getImage();
         pic.setIcon(new ImageIcon(image));
         pic.setBounds(377, 111, 128, 128);
 
@@ -91,25 +89,24 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmCalculator);
 
-/*
+
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
         mntmCalculator.addActionListener(e -> {
-            Pythagoras triangle = new Pythagoras();
-            triangle.setVisible(true);
+            Pythagoras frame = new Pythagoras();
+            frame.setVisible(true);
         });
         mnJig.add(mntmPythagoras);
 
- */
 
-/*
-        JMenuItem ecommerce = new JMenuItem("Ecommerce");
-        ecommerce.addActionListener(e -> {
+
+        JMenuItem mntmecommerce = new JMenuItem("Ecommerce");
+        mntmecommerce.addActionListener(e -> {
             Ecommerce frame = new Ecommerce();
             frame.setVisible(true);
         });
-        mnJig.add(ecommerce);
+        mnJig.add(mntmecommerce);
 
- */
+
 
 
 /*
