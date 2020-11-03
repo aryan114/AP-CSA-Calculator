@@ -141,6 +141,26 @@ public class CalculatorView extends JFrame {
             CalcControl.savemathop(OPERATOR.MINUS);
         });
 
+        omultiply.addActionListener(e->{
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.MULTIPLY);
+        });
+
+        odivide.addActionListener(e->{
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.DIVIDE);
+        });
+
+        osquare.addActionListener(e->{
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.SQUARE);
+        });
+
+        o.addActionListener(e->{
+            CalcControl.savefnum(Double.parseDouble(CalcDisplay.getText()));
+            CalcControl.savemathop(OPERATOR.MULTIPLY);
+        });
+
         oequal.addActionListener(e->{
             CalcControl.savesnum(Double.parseDouble(CalcDisplay.getText()));
             CalcControl.calculateResult();
