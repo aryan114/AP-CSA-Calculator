@@ -28,7 +28,6 @@ public class NewUser {
         });
     }
 
-
     public static void main(String[] args) {
         JFrame log = new JFrame("Login");
         log.setSize(600, 500);
@@ -36,5 +35,4 @@ public class NewUser {
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         log.setVisible(true);
     }
-
 }

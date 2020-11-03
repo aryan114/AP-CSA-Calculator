@@ -1,10 +1,13 @@
 package Pythagoras;
 
 // Created by Aryan
+import view_control.CalculatorUI;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.Math;
+import java.awt.EventQueue;
 
 public class Pythagoras extends JFrame {
     private JPanel Panel;
@@ -47,6 +50,16 @@ public class Pythagoras extends JFrame {
         //triangle.setContentPane(new Pythagoras().Panel);
         //triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         triangle.setVisible(true);
+        EventQueue.invokeLater(() -> {
+            try {
+                Pythagoras frame = new Pythagoras();
+                frame.setTitle("Pythagoras Calculator");
+                frame.setVisible(true);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
 
     }
 }
