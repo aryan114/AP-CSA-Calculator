@@ -35,7 +35,7 @@
       <component id="55120" class="javax.swing.JButton" binding="number2">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="65" height="30"/>
+            <preferred-size width="93" height="30"/>
           </grid>
         </constraints>
         <properties>
@@ -47,7 +47,7 @@
       <component id="37d3c" class="javax.swing.JButton" binding="number8">
         <constraints>
           <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="65" height="30"/>
+            <preferred-size width="93" height="30"/>
           </grid>
         </constraints>
         <properties>
@@ -70,7 +70,9 @@
       </component>
       <component id="a3d8a" class="javax.swing.JButton" binding="number3">
         <constraints>
-          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -93,7 +95,7 @@
       <component id="315a3" class="javax.swing.JButton" binding="number5">
         <constraints>
           <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="65" height="30"/>
+            <preferred-size width="93" height="30"/>
           </grid>
         </constraints>
         <properties>
@@ -104,7 +106,9 @@
       </component>
       <component id="f3847" class="javax.swing.JButton" binding="number6">
         <constraints>
-          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -114,7 +118,9 @@
       </component>
       <component id="2de59" class="javax.swing.JButton" binding="number9">
         <constraints>
-          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -124,7 +130,9 @@
       </component>
       <component id="c21f4" class="javax.swing.JButton" binding="oadd">
         <constraints>
-          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -134,7 +142,9 @@
       </component>
       <component id="e616d" class="javax.swing.JButton" binding="osubtract">
         <constraints>
-          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -144,7 +154,9 @@
       </component>
       <component id="ae813" class="javax.swing.JButton" binding="oequal">
         <constraints>
-          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -154,7 +166,9 @@
       </component>
       <component id="6ea32" class="javax.swing.JButton" binding="ACButton" default-binding="true">
         <constraints>
-          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -164,7 +178,9 @@
       </component>
       <component id="8f359" class="javax.swing.JButton" binding="odivide">
         <constraints>
-          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -174,7 +190,9 @@
       </component>
       <component id="40a00" class="javax.swing.JButton" binding="opower">
         <constraints>
-          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -184,7 +202,9 @@
       </component>
       <component id="b270" class="javax.swing.JButton" binding="omultiply">
         <constraints>
-          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -194,7 +214,9 @@
       </component>
       <component id="61ccf" class="javax.swing.JButton" binding="osquare">
         <constraints>
-          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -204,7 +226,9 @@
       </component>
       <component id="6a71a" class="javax.swing.JButton" binding="osin">
         <constraints>
-          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -214,7 +238,9 @@
       </component>
       <component id="28e89" class="javax.swing.JButton" binding="ocos">
         <constraints>
-          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -224,7 +250,9 @@
       </component>
       <component id="b25ef" class="javax.swing.JButton" binding="otan">
         <constraints>
-          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -234,7 +262,9 @@
       </component>
       <component id="c6d05" class="javax.swing.JButton" binding="oln">
         <constraints>
-          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -244,7 +274,9 @@
       </component>
       <component id="22d77" class="javax.swing.JButton" binding="osininverse">
         <constraints>
-          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -254,7 +286,9 @@
       </component>
       <component id="9c642" class="javax.swing.JButton" binding="ocosinverse">
         <constraints>
-          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="2" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -264,7 +298,9 @@
       </component>
       <component id="ee3b" class="javax.swing.JButton" binding="otaninverse">
         <constraints>
-          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="3" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>
@@ -274,7 +310,9 @@
       </component>
       <component id="f8443" class="javax.swing.JButton" binding="oroots">
         <constraints>
-          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="4" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="93" height="30"/>
+          </grid>
         </constraints>
         <properties>
           <background color="-1576449"/>

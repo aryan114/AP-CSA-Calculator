@@ -97,26 +97,7 @@ public class CalculatorView extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
 
-        //getContentPane().add(CalcDisplay);
         getContentPane().add(CalcPanel);
-       /*
-        getContentPane().add(number0);
-        getContentPane().add(number1);
-        getContentPane().add(number2);
-        getContentPane().add(number3);
-        getContentPane().add(number4);
-        getContentPane().add(number5);
-        getContentPane().add(number6);
-        getContentPane().add(number7);
-        getContentPane().add(number8);
-        getContentPane().add(number9);
-        getContentPane().add(oadd);
-        getContentPane().add(osubtract);
-        getContentPane().add(ACButton);
-        getContentPane().add(oequal);
-
-        */
-
 
 
         CalcDisplay.setBounds(18, 6, 650, 67);
@@ -150,10 +131,6 @@ public class CalculatorView extends JFrame {
             CalcControl.clearCalculator();
         });
 
-
-        //Calc.setContentPane(getContentPane());
-
-        //Calc.setVisible(true);
     }
 
 }
