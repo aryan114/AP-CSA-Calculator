@@ -15,7 +15,10 @@ public class Pythagoras extends JFrame {
 
 
     public Pythagoras() {
-    JFrame frame = new JFrame();
+    //JFrame frame = new JFrame();
+        getContentPane().add(Panel);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(500, 1000);
     //JLabel instructions = new JLabel("Enter the first leg and the second leg of your right triangle");
     //JTextField side1 = new JTextField("Enter the value of side 1: ");
     //JTextField side2 = new JTextField("Enter the value of side 2: ");
@@ -38,10 +41,11 @@ public class Pythagoras extends JFrame {
 
 }
     public static void main(String[] args) {
-        JFrame triangle = new JFrame("Pythagoras Calculator");
-        triangle.setSize(500, 1000);
-        triangle.setContentPane(new Pythagoras().Panel);
-        triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Pythagoras triangle = new Pythagoras();
+        triangle.setTitle("Pythagoras Calculator");
+
+        //triangle.setContentPane(new Pythagoras().Panel);
+        //triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         triangle.setVisible(true);
 
     }
