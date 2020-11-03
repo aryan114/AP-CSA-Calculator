@@ -56,7 +56,7 @@ public class CalculatorView extends JFrame {
     private JLabel CalcDisplay;
     private JPanel CalcPanel;
     // package view_control;
-
+/*
     public static void main(String[] args) {
         JFrame Calc = new JFrame();
         //Calc.setContentPane(new CalculatorView().CalcPanel); //What should I pass in as a parameter?
@@ -64,6 +64,8 @@ public class CalculatorView extends JFrame {
         Calc.setBounds(150, 150, 700, 375);
         Calc.setVisible(true);
     }
+
+ */
 
     public void initializeCalcDisplay(){
         this.initializeInputState();
@@ -89,8 +91,15 @@ public class CalculatorView extends JFrame {
     }
 
     public CalculatorView(CalcControl CalcControl) {
-/*
-        getContentPane().add(CalcDisplay);
+        getContentPane().setBackground(Color.GRAY);
+
+        setBounds(150, 150, 700, 375);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+
+        //getContentPane().add(CalcDisplay);
+        getContentPane().add(CalcPanel);
+       /*
         getContentPane().add(number0);
         getContentPane().add(number1);
         getContentPane().add(number2);
@@ -106,7 +115,9 @@ public class CalculatorView extends JFrame {
         getContentPane().add(ACButton);
         getContentPane().add(oequal);
 
- */
+        */
+
+
 
         CalcDisplay.setBounds(18, 6, 650, 67);
         number1.addActionListener(e -> LongNumbers(number1.getText()));
@@ -140,6 +151,9 @@ public class CalculatorView extends JFrame {
         });
 
 
+        //Calc.setContentPane(getContentPane());
+
+        //Calc.setVisible(true);
     }
 
 }
