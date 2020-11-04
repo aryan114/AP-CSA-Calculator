@@ -11,6 +11,7 @@ public class Items extends JFrame {
     private JPanel Panel;
     private JButton apples;
     double TotalMoney = 0;
+    int allapples = 0;
 
     public Items(){
 
@@ -28,7 +29,9 @@ public class Items extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 TotalMoney = TotalMoney + 1.99;
+                allapples = allapples + 1;
                 System.out.println(TotalMoney);
+                System.out.println(allapples);
             }
         });
     }
