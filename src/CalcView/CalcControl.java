@@ -2,7 +2,9 @@ package CalcView;
 
 import util.Math;
 
-public class CalcControl {
+import javax.swing.*;
+
+public class CalcControl extends JFrame {
 
     private enum STATE {INITIAL, SAVE1, SAVE2, CALC}
     private STATE mathState;
@@ -14,19 +16,20 @@ public class CalcControl {
         new CalcControl();
     }
 
-    public CalcControl(){
+    public CalcControl() {
         model = new CalcModel();
         this.view = new CalculatorView(this);
         view.setVisible(true);
     }
 
-    public void clearCalculator(){
+    public void clearCalculator() {
         mathState = STATE.INITIAL;
         model = new CalcModel();
         view.initializeCalcDisplay();
     }
 
-    public void calculateResult(){
+
+    public void calculateResult() {
         double result = model.thingstocalculate();
         model.setfnum(result);
         mathState = STATE.CALC;
