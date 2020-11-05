@@ -10,8 +10,6 @@ import java.awt.*;
 import java.util.HashMap;
 import java.util.Objects;
 import LoginToProject.NewUser.*;
-
-
 public class Login extends JFrame {
     private JPanel LoginPanel;
     private JLabel User;
@@ -25,23 +23,18 @@ public class Login extends JFrame {
     //^Components on JPanel initiation. See form for color updates.
     credstoremodel login = credstoremodel.getInstance();
     //credcontrol control = new credcontrol();
-
-
     public Login() {
 /*
         setSize(500,300);
         setContentPane(new Login().LoginPanel);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         getContentPane().add(LoginPanel);
-
  */
-
         Verify.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 String username = UserEntry.getText();
                 String password = PassEntry.getText();
-
                 if (username.equals("coderwithswag") && password.equals("Legit")) {
                     LoginMessage.setText("You're in!");
                     MainMenu.main(null);
@@ -58,13 +51,9 @@ public class Login extends JFrame {
                 } else {
                     LoginMessage.setText("Wrong Credentials!");
                 }
-
-
-
                 //control.verifier(username, password);
             }
         });
-
         newUser.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -72,16 +61,14 @@ public class Login extends JFrame {
             }
         });
     }
-/*
-    public void userin(){
-        LoginMessage.setText("You're in");
-    }
-    public void userout(){
-        LoginMessage.setText("Wrong Credentials");
-    }
-
- */
-
+    /*
+        public void userin(){
+            LoginMessage.setText("You're in");
+        }
+        public void userout(){
+            LoginMessage.setText("Wrong Credentials");
+        }
+     */
     public static void main(String[] args) {
         //Login frame = new Login();
         JFrame log = new JFrame("Login");
@@ -89,7 +76,6 @@ public class Login extends JFrame {
         log.setContentPane(new Login().LoginPanel);
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         log.setVisible(true);
-
         //frame.setVisible(true);
     }
 }
