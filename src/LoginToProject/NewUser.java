@@ -11,11 +11,7 @@ public class NewUser {
     private JLabel username;
     private JLabel banner;
     private JPanel newUserpanel;
-
     credstoremodel newuser = credstoremodel.getInstance();
-
-
-
     public NewUser() {
         createNewUserButton.addActionListener(new ActionListener() {
             @Override
@@ -23,10 +19,11 @@ public class NewUser {
                 String usertemp = usernameentry.getText();
                 String passtemp = passwordentry.getText();
                 newuser.addUserCredentials(usertemp, passtemp);
+                newuser.addstackusername(usertemp);
+                newuser.addqueuepassword(passtemp);
             }
         });
     }
-
     public static void main(String[] args) {
         JFrame log = new JFrame("Login");
         log.setSize(600, 500);
