@@ -16,12 +16,12 @@ public class Items extends JFrame {
     public Items(){
 
         JFrame frame = new JFrame();
-        frame.setSize(1000, 1000);
+        frame.setSize(500, 500);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
         JButton apples = new JButton("apples: $1.99");
-        frame.getContentPane().add(apples);
+        getContentPane().add(apples);
 
         apples.setBounds(225,400,200,200);
 
@@ -43,6 +43,7 @@ public class Items extends JFrame {
         TotalItems.setContentPane(new Items().Panel);
         TotalItems.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         TotalItems.setVisible(true);
+
     }
 }
 
