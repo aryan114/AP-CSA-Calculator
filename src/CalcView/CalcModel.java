@@ -5,7 +5,7 @@ public class CalcModel {
 
     private double result;
     private Math.OPERATOR mathop;
-    private double fnum; //first number of calculation
+    private double fnum;  //first number of calculation
     private double snum;  //second number of calculation
 
     public CalcModel() {

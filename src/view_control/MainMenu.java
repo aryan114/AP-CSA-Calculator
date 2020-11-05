@@ -1,6 +1,8 @@
 package view_control;
 
+import CalcView.CalcControl;
 import Ecommerce.Ecommerce;
+import Measurements.MeasurementsMenu;
 import Pythagoras.Pythagoras;
 import Temperature.Temperature;
 
@@ -113,6 +115,19 @@ public class MainMenu extends JFrame {
         });
         mnJig.add(mntmTemperature);
 
+        JMenuItem mntmMVCCalculator = new JMenuItem("MVC Calculator");
+        mntmMVCCalculator.addActionListener(e-> {
+            CalcControl calc = new CalcControl();
+            calc.setVisible(true);
+        });
+        mnJig.add(mntmMVCCalculator);
+
+        JMenuItem mntmConversions = new JMenuItem("Conversions/Measurements");
+        mntmConversions.addActionListener(e-> {
+            MeasurementsMenu menu = new MeasurementsMenu();
+            menu.setVisible(true);
+        });
+        mnJig.add(mntmConversions);
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");
