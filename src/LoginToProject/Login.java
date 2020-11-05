@@ -11,7 +11,8 @@ import java.util.HashMap;
 import java.util.Objects;
 import LoginToProject.NewUser.*;
 
-public class Login {
+
+public class Login extends JFrame {
     private JPanel LoginPanel;
     private JLabel User;
     private JLabel LoginMessage;
@@ -22,12 +23,19 @@ public class Login {
     private JButton newUser;
     private JLabel welcome;
     //^Components on JPanel initiation. See form for color updates.
-
-
     credstoremodel login = credstoremodel.getInstance();
+    //credcontrol control = new credcontrol();
 
 
     public Login() {
+/*
+        setSize(500,300);
+        setContentPane(new Login().LoginPanel);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        getContentPane().add(LoginPanel);
+
+ */
+
         Verify.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
@@ -41,7 +49,6 @@ public class Login {
                 } else {
                     LoginMessage.setText("Wrong Credentials!");
                 }
-
                 if(login.getUserPassword(username).equals(password)){
                     LoginMessage.setText("You're in!");
                     MainMenu.main(null);
@@ -51,9 +58,12 @@ public class Login {
                 } else {
                     LoginMessage.setText("Wrong Credentials!");
                 }
+
+
+
+                //control.verifier(username, password);
             }
         });
-
 
         newUser.addActionListener(new ActionListener() {
             @Override
@@ -62,13 +72,24 @@ public class Login {
             }
         });
     }
+/*
+    public void userin(){
+        LoginMessage.setText("You're in");
+    }
+    public void userout(){
+        LoginMessage.setText("Wrong Credentials");
+    }
+
+ */
 
     public static void main(String[] args) {
+        //Login frame = new Login();
         JFrame log = new JFrame("Login");
         log.setSize(500,300);
         log.setContentPane(new Login().LoginPanel);
         log.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         log.setVisible(true);
-    }
 
+        //frame.setVisible(true);
+    }
 }

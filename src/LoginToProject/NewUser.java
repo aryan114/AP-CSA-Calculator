@@ -23,6 +23,8 @@ public class NewUser {
                 String usertemp = usernameentry.getText();
                 String passtemp = passwordentry.getText();
                 newuser.addUserCredentials(usertemp, passtemp);
+                newuser.addstackusername(usertemp);
+                newuser.addqueuepassword(passtemp);
             }
         });
     }
