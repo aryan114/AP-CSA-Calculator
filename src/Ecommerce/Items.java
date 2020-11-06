@@ -13,8 +13,9 @@ public class Items extends JFrame {
 
     private final JLabel TotalMoney = new JLabel("");
     //private JButton apples;
-    double TotalMoneyCount = 0;
     int allapples = 0;
+    double TotalMoneyCount = 0;
+
 
     public Items(){
 
@@ -29,14 +30,12 @@ public class Items extends JFrame {
         getContentPane().add(TotalMoney);
 //_______________________________________________________________________
         JButton apples = new JButton("Apples: $1.99");
-        apples.addMouseListener(new MouseAdapter() {
+
+        apples.addActionListener(new ActionListener() {
             @Override
-            public void mousePressed(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
-            }
-            @Override
-            public void mouseReleased(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
+            public void actionPerformed(ActionEvent e) {
+                TotalMoneyCount = TotalMoneyCount + 1.99;
+                System.out.println(TotalMoneyCount);
             }
         });
 
@@ -44,18 +43,15 @@ public class Items extends JFrame {
         apples.setOpaque(true);
         apples.setForeground(Color.BLACK);
         apples.setBackground(Color.ORANGE);
-        apples.setBounds(35, 86, 100, 40);
+        apples.setBounds(35, 86, 200, 40);
         getContentPane().add(apples);
 //___________________________________________________________________________
-        JButton masks = new JButton("Masks: $1.99");
-        masks.addMouseListener(new MouseAdapter() {
+        JButton masks = new JButton("Masks: $100");
+        masks.addActionListener(new ActionListener() {
             @Override
-            public void mousePressed(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
-            }
-            @Override
-            public void mouseReleased(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
+            public void actionPerformed(ActionEvent e) {
+                TotalMoneyCount = TotalMoneyCount + 100;
+                System.out.println(TotalMoneyCount);
             }
         });
 
@@ -63,18 +59,15 @@ public class Items extends JFrame {
         masks.setOpaque(true);
         masks.setForeground(Color.BLACK);
         masks.setBackground(Color.ORANGE);
-        masks.setBounds(35, 136, 100, 40);
+        masks.setBounds(35, 136, 200, 40);
         getContentPane().add(masks);
         //_______________________________________________________________________________
         JButton Calculator = new JButton("Calculator: $10.00");
-        Calculator.addMouseListener(new MouseAdapter() {
+        Calculator.addActionListener(new ActionListener() {
             @Override
-            public void mousePressed(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
-            }
-            @Override
-            public void mouseReleased(MouseEvent e) {
-                apples.setBackground(Color.ORANGE);
+            public void actionPerformed(ActionEvent e) {
+                TotalMoneyCount = TotalMoneyCount + 100;
+                System.out.println(TotalMoneyCount);
             }
         });
 
@@ -82,13 +75,30 @@ public class Items extends JFrame {
         Calculator.setOpaque(true);
         Calculator.setForeground(Color.BLACK);
         Calculator.setBackground(Color.ORANGE);
-        Calculator.setBounds(35, 186, 100, 40);
+        Calculator.setBounds(35, 186, 200, 40);
         getContentPane().add(Calculator);
+        //__________________________________________________________________________________
+        JButton bannanas = new JButton("Bannanas: $0.99");
+        masks.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                TotalMoneyCount = TotalMoneyCount + 0.99
+                System.out.println(TotalMoneyCount);
+            }
+        });
+
+        bannanas.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+        bannanas.setOpaque(true);
+        bannanas.setForeground(Color.BLACK);
+        bannanas.setBackground(Color.ORANGE);
+        bannanas.setBounds(35, 236, 200, 40);
+        getContentPane().add(bannanas);
     }
 
 
 
     public static void main(String[] args) {
+
 
         EventQueue.invokeLater(() -> {
             try {
