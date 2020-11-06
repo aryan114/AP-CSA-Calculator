@@ -12,7 +12,6 @@ import java.awt.event.MouseEvent;
 public class Items extends JFrame {
 
     private final JLabel TotalMoney = new JLabel("");
-    //private JButton apples;
     int allapples = 0;
     double TotalMoneyCount = 0;
 
@@ -66,7 +65,7 @@ public class Items extends JFrame {
         Calculator.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TotalMoneyCount = TotalMoneyCount + 100;
+                TotalMoneyCount = TotalMoneyCount + 10;
                 System.out.println(TotalMoneyCount);
             }
         });
@@ -79,10 +78,10 @@ public class Items extends JFrame {
         getContentPane().add(Calculator);
         //__________________________________________________________________________________
         JButton bannanas = new JButton("Bannanas: $0.99");
-        masks.addActionListener(new ActionListener() {
+        bannanas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TotalMoneyCount = TotalMoneyCount + 0.99
+                TotalMoneyCount = TotalMoneyCount + 0.99;
                 System.out.println(TotalMoneyCount);
             }
         });
