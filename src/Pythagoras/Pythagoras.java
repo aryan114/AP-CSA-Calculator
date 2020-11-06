@@ -1,12 +1,15 @@
 package Pythagoras;
 
 // Created by Aryan
+import view_control.CalculatorUI;
+
 import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.lang.Math;
+import java.awt.EventQueue;
 
-public class Pythagoras {
+public class Pythagoras extends JFrame {
     private JPanel Panel;
     private JTextField side1;
     private JTextField side2;
@@ -15,7 +18,10 @@ public class Pythagoras {
 
 
     public Pythagoras() {
-    JFrame frame = new JFrame();
+    //JFrame frame = new JFrame();
+        getContentPane().add(Panel);
+        setDefaultCloseOperation(EXIT_ON_CLOSE);
+        setSize(500, 1000);
     //JLabel instructions = new JLabel("Enter the first leg and the second leg of your right triangle");
     //JTextField side1 = new JTextField("Enter the value of side 1: ");
     //JTextField side2 = new JTextField("Enter the value of side 2: ");
@@ -38,11 +44,22 @@ public class Pythagoras {
 
 }
     public static void main(String[] args) {
-        JFrame triangle = new JFrame("Pythagoras Calculator");
-        triangle.setSize(500, 1000);
-        triangle.setContentPane(new Pythagoras().Panel);
-        triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        Pythagoras triangle = new Pythagoras();
+        triangle.setTitle("Pythagoras Calculator");
+
+        //triangle.setContentPane(new Pythagoras().Panel);
+        //triangle.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         triangle.setVisible(true);
+        EventQueue.invokeLater(() -> {
+            try {
+                Pythagoras frame = new Pythagoras();
+                frame.setTitle("Pythagoras Calculator");
+                frame.setVisible(true);
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
+        });
+
 
     }
 }

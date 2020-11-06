@@ -1,7 +1,10 @@
 package view_control;
 
+import CalcView.CalcControl;
 import Ecommerce.Ecommerce;
+import Measurements.MeasurementsMenu;
 import Pythagoras.Pythagoras;
+import Temperature.Temperature;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -55,7 +58,7 @@ public class MainMenu extends JFrame {
         // Content Panel to add Label and Image
         //https://docs.oracle.com/javase/tutorial/uiswing/components/rootpane.html
         Container content = getContentPane();
-        content.setBackground(new Color(212, 14, 14));
+        content.setBackground(new Color(96, 206, 250, 255));
         content.add(pic);
 
         // Menu Objects
@@ -90,15 +93,41 @@ public class MainMenu extends JFrame {
             frame.setVisible(true);
         });
         mnJig.add(mntmCalculator);
-/*
+
+        JMenuItem ecommerce = new JMenuItem("Ecommerce");
+        ecommerce.addActionListener(e -> {
+            Ecommerce frame = new Ecommerce();
+            frame.setVisible(true);
+        });
+        mnJig.add(ecommerce);
+
         JMenuItem mntmPythagoras = new JMenuItem("Pythagoras Calculator");
-        mntmCalculator.addActionListener(e -> {
+        mntmPythagoras.addActionListener(e -> {
             Pythagoras triangle = new Pythagoras();
             triangle.setVisible(true);
         });
         mnJig.add(mntmPythagoras);
 
- */
+        JMenuItem mntmTemperature = new JMenuItem("Temperature Converter");
+        mntmTemperature.addActionListener(e-> {
+            Temperature temp = new Temperature();
+            temp.setVisible(true);
+        });
+        mnJig.add(mntmTemperature);
+
+        JMenuItem mntmMVCCalculator = new JMenuItem("MVC Calculator");
+        mntmMVCCalculator.addActionListener(e-> {
+            CalcControl calc = new CalcControl();
+            calc.setVisible(true);
+        });
+        mnJig.add(mntmMVCCalculator);
+
+        JMenuItem mntmConversions = new JMenuItem("Conversions/Measurements");
+        mntmConversions.addActionListener(e-> {
+            MeasurementsMenu menu = new MeasurementsMenu();
+            menu.setVisible(true);
+        });
+        mnJig.add(mntmConversions);
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");
