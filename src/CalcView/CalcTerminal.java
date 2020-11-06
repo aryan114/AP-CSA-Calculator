@@ -21,10 +21,13 @@ public class CalcTerminal extends Math {
             System.out.println("| 7. Quit                                                     |");
             System.out.println("--------------------------------------------------------------");
 
-            Scanner arguno = new Scanner(System.in); //gets scanner input
+            System.out.println("Please select the operation that you would like to proceed with ");
+            Scanner operationScan = new Scanner(System.in);
+            int operation = operationScan.nextInt();
+            System.out.println("Enter the first number: ");
+            Scanner arguno = new Scanner(System.in);
             double arg1 = arguno.nextDouble();
-            Scanner operationscan = new Scanner(System.in);
-            int operation = operationscan.nextInt();
+            System.out.println("Enter the second number: ");
             Scanner argdos = new Scanner(System.in);
             double arg2 = argdos.nextDouble();
 
