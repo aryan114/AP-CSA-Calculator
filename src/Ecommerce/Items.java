@@ -1,4 +1,3 @@
-//test
 package Ecommerce;
 import javax.swing.*;
 import javax.swing.border.MatteBorder;
@@ -12,8 +11,10 @@ import java.awt.event.MouseEvent;
 public class Items extends JFrame {
 
     private final JLabel TotalMoney = new JLabel("");
+
     int allapples = 0;
     double TotalMoneyCount = 0;
+
 
 
     public Items(){
@@ -22,8 +23,8 @@ public class Items extends JFrame {
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setBounds(150, 150, 700, 375);
         getContentPane().setLayout(null);
-        TotalMoney.setForeground(Color.BLACK);
-        TotalMoney.setFont(new Font("Lucida Grande", Font.PLAIN, 72));
+        TotalMoney.setForeground(Color.WHITE);
+        TotalMoney.setFont(new Font("Lucida Grande", Font.PLAIN, 30));
         TotalMoney.setHorizontalAlignment(SwingConstants.RIGHT);
         TotalMoney.setBounds(18, 6, 650, 67);
         getContentPane().add(TotalMoney);
@@ -35,6 +36,7 @@ public class Items extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 TotalMoneyCount = TotalMoneyCount + 1.99;
                 System.out.println(TotalMoneyCount);
+                TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
         });
 
@@ -51,6 +53,7 @@ public class Items extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 TotalMoneyCount = TotalMoneyCount + 100;
                 System.out.println(TotalMoneyCount);
+                TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
         });
 
@@ -67,6 +70,7 @@ public class Items extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 TotalMoneyCount = TotalMoneyCount + 10;
                 System.out.println(TotalMoneyCount);
+                TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
         });
 
@@ -83,6 +87,7 @@ public class Items extends JFrame {
             public void actionPerformed(ActionEvent e) {
                 TotalMoneyCount = TotalMoneyCount + 0.99;
                 System.out.println(TotalMoneyCount);
+                TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
         });
 
@@ -92,6 +97,7 @@ public class Items extends JFrame {
         bannanas.setBackground(Color.ORANGE);
         bannanas.setBounds(35, 236, 200, 40);
         getContentPane().add(bannanas);
+        //___________________________________________________________________________________
     }
 
 
@@ -108,11 +114,6 @@ public class Items extends JFrame {
                 e.printStackTrace();
             }
         });
-//        JFrame TotalItems = new JFrame("Items Page");
-//        TotalItems.setSize(1000,1000);
-//        TotalItems.setContentPane(new Items().Panel);
-//        TotalItems.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-//        TotalItems.setVisible(true);
 
     }
 }
