@@ -54,12 +54,31 @@ public class TotalCheckout extends JFrame {
         Exit.setBounds(35, 156, 200, 40);
         getContentPane().add(Exit);
 
+        JButton CheckOutItems = new JButton("Checkout");
+        CheckOutItems.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+        CheckOutItems.setOpaque(true);
+        CheckOutItems.setForeground(Color.BLACK);
+        CheckOutItems.setBackground(Color.ORANGE);
+        CheckOutItems.setBounds(35, 206, 200, 40);
+        getContentPane().add(CheckOutItems);
+
         if(Items.TotalMoneyCount > Balance){
             System.out.println("Not Enough Money");
             EnoughMoney.setText("Balance Insufficient");
+            CheckOutItems.setVisible(false);
         }
         else{
             EnoughMoney.setText("Balance Sufficent");
+            CheckOutItems.setVisible(true);
+            CheckOutItems.addActionListener(new ActionListener() {
+                @Override
+                public void actionPerformed(ActionEvent e) {
+                    TotalBalance.setText("Your Balance = " + String.valueOf(Balance - Items.TotalMoneyCount));
+                    TotalCheckout.setText("Total Money = 0");
+
+
+                }
+            });
         }
 
     }
