@@ -7,7 +7,7 @@ import java.awt.event.*;
 
 public class Items extends JFrame {
 
-    private final JLabel TotalMoney = new JLabel("");
+    public final JLabel TotalMoney = new JLabel("");
 
     //public static int allapples = 0;
     public static double TotalMoneyCount = 0;
@@ -100,7 +100,7 @@ public class Items extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e) {
                 setVisible(false);
-                Ecommerce.main(null);
+                //Ecommerce.main(null);
 
             }
         });
