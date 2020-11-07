@@ -41,6 +41,13 @@ public class Ecommerce extends JFrame {
             }
         });
 
+        Checkout.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                TotalCheckout.main(null);
+            }
+        });
+
     }
 
 
