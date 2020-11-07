@@ -46,6 +46,8 @@ public class Ecommerce extends JFrame {
 
 
     public static void main(String[] args) {
+        //Items.main(null);
+
         EventQueue.invokeLater(() -> {
             try {
                 Ecommerce ecommerceMarket = new Ecommerce();

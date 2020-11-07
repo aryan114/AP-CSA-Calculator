@@ -2,23 +2,20 @@ package Ecommerce;
 import javax.swing.*;
 import javax.swing.border.MatteBorder;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseAdapter;
-import java.awt.event.MouseEvent;
+import java.awt.event.*;
 
 
 public class Items extends JFrame {
 
     private final JLabel TotalMoney = new JLabel("");
 
-    int allapples = 0;
-    double TotalMoneyCount = 0;
+    //public static int allapples = 0;
+    public static double TotalMoneyCount = 0;
+
 
 
 
     public Items(){
-
         getContentPane().setBackground(new Color(211, 211,211));
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         setBounds(150, 150, 700, 375);
@@ -29,12 +26,12 @@ public class Items extends JFrame {
         TotalMoney.setBounds(18, 6, 650, 67);
         getContentPane().add(TotalMoney);
 //_______________________________________________________________________
-        JButton apples = new JButton("Apples: $1.99");
+        JButton apples = new JButton("Apples: $1.75");
 
         apples.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TotalMoneyCount = TotalMoneyCount + 1.99;
+                TotalMoneyCount = TotalMoneyCount + 1.75;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
@@ -64,11 +61,11 @@ public class Items extends JFrame {
         masks.setBounds(35, 136, 200, 40);
         getContentPane().add(masks);
         //_______________________________________________________________________________
-        JButton Calculator = new JButton("Calculator: $10.00");
+        JButton Calculator = new JButton("Calculator: $10.75");
         Calculator.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TotalMoneyCount = TotalMoneyCount + 10;
+                TotalMoneyCount = TotalMoneyCount + 10.75;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
@@ -81,11 +78,11 @@ public class Items extends JFrame {
         Calculator.setBounds(35, 186, 200, 40);
         getContentPane().add(Calculator);
         //__________________________________________________________________________________
-        JButton bannanas = new JButton("Bannanas: $0.99");
+        JButton bannanas = new JButton("Bannanas: $1.50");
         bannanas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                TotalMoneyCount = TotalMoneyCount + 0.99;
+                TotalMoneyCount = TotalMoneyCount + 1.50;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
             }
@@ -98,6 +95,22 @@ public class Items extends JFrame {
         bannanas.setBounds(35, 236, 200, 40);
         getContentPane().add(bannanas);
         //___________________________________________________________________________________
+        JButton back = new JButton("Back");
+        back.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                setVisible(false);
+                Ecommerce.main(null);
+
+            }
+        });
+
+        back.setBorder(new MatteBorder(4, 4, 4, 4, Color.BLACK));
+        back.setOpaque(true);
+        back.setForeground(Color.BLACK);
+        back.setBackground(Color.ORANGE);
+        back.setBounds(35, 286, 200, 40);
+        getContentPane().add(back);
     }
 
 
