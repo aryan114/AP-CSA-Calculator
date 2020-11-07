@@ -7,6 +7,11 @@ import java.awt.event.WindowEvent;
 
 public class Slapjack {
 
+    enum GameStatus {
+        WIN,
+        LOSE,
+        NONE
+    }
     private Frame mainFrame;
     private Label headerLabel;
     private Label statusLabel;
@@ -15,6 +20,7 @@ public class Slapjack {
 
     private int cardNum;
     private int suitNum;
+    private boolean slapped = false;
 
     public Slapjack(){
         prepareGUI();
@@ -72,8 +78,7 @@ public class Slapjack {
         slapButton.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 statusLabel.setText("Slap Button clicked.");
-                //changeCard("5 S");  // use random card instead
-                nextCard();
+                slapped = true;
             }
         });
 
@@ -81,7 +86,7 @@ public class Slapjack {
             public void actionPerformed(ActionEvent e) {
                 statusLabel.setText("Burn Button clicked.");
                 //changeCard("10 H"); // use random card instead
-                nextCard();
+                //nextCard();
             }
         });
 
@@ -94,9 +99,6 @@ public class Slapjack {
         controlPanel.add(slapButton);
         controlPanel.add(burnButton);
         controlPanel.add(cancelButton);
-
-
-
         mainFrame.setVisible(true);
     }
 
@@ -119,13 +121,17 @@ public class Slapjack {
         suitNum = (int) Math.round(Math.random()*3); // 0 to 3
         String cardStr = Long.toString(cardNum) + " " + suitStr(suitNum);
         changeCard(cardStr);
-        delayer();
     }
 
     public void nextCardV1() {
 
     }
 
+    /**
+     * Convert Suite number to a string
+     * @param i suite number
+     * @return suite string
+     */
     public static String suitStr(int i) {
         switch(i) {
             case 0: return new String("D");
@@ -136,28 +142,51 @@ public class Slapjack {
         }
     }
 
+    public boolean checkForJack(){
+        return (cardNum  == 11);
+    }
+
     /**
-     * @return true on success; false when you lose the game
+     * Plays next card and returns status of the game
+     * @return GameStatus (WIN/LOSE/NONE)
      */
-    public boolean gameStatusCheck(){
-        if (cardNum  == 11) {
-            statusLabel.setText("You Lose ...");
-            controlPanel.setEnabled(false);
-            return false;
+    public GameStatus nextCardCheck() {
+        slapped = false;  // clear slap status
+        nextCard();
+        delayer();
+        if(slapped) {
+            if (checkForJack()) {
+                statusLabel.setText("You win!");
+                controlPanel.setEnabled(false);
+                return GameStatus.WIN;
+            }
+            else {
+                statusLabel.setText("No Jack! You Lose!");
+                controlPanel.setEnabled(false);
+                return GameStatus.LOSE;
+            }
         }
-        return true;
+        else {
+            if (checkForJack()) {
+                statusLabel.setText("Jack not slapped! You Lose!");
+                controlPanel.setEnabled(false);
+                return GameStatus.LOSE;
+            }
+            return GameStatus.NONE;
+        }
     }
 
     public static void main(String[] args) {
 
         Slapjack demo = new Slapjack();
         demo.showButtonDemo();
+
         while(true) {
-            demo.nextCard();
-            if (!demo.gameStatusCheck())
+            GameStatus status = demo.nextCardCheck();
+            if (status != GameStatus.NONE)
                 break;
         }
-
     }
 
 }
+
