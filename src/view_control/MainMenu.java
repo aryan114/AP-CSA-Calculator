@@ -2,9 +2,11 @@ package view_control;
 
 import CalcView.CalcControl;
 import Ecommerce.Ecommerce;
+import Factorial.Factorial;
 import Measurements.MeasurementsMenu;
 import Pythagoras.Pythagoras;
 import Temperature.Temperature;
+import slapj.Slapjack;
 
 import java.awt.Color;
 import java.awt.Container;
@@ -128,6 +130,23 @@ public class MainMenu extends JFrame {
             menu.setVisible(true);
         });
         mnJig.add(mntmConversions);
+
+        JMenuItem mntmFactorial = new JMenuItem("Factorial Calculator");
+        mntmFactorial.addActionListener(e-> {
+            Factorial menu = new Factorial();
+            menu.setVisible(true);
+        });
+        mnJig.add(mntmFactorial);
+/*
+        JMenuItem mntmSlapJ = new JMenuItem("Slapjack");
+        mntmSlapJ.addActionListener(e-> {
+            Slapjack menu = new Slapjack();
+            menu.setVisible(true);
+        });
+        mnJig.add(mntmSlapJ);
+
+ */
+
 
 /*
         JMenuItem ecommerce = new JMenuItem("Ecommerce");
