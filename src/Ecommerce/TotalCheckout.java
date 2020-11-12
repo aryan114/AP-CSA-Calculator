@@ -43,7 +43,9 @@ public class TotalCheckout extends JFrame {
         Exit.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-               System.exit(0);
+               //System.exit(0);
+                setVisible(false);
+
             }
         });
 
