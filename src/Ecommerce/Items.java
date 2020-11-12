@@ -3,6 +3,7 @@ import javax.swing.*;
 import javax.swing.border.MatteBorder;
 import java.awt.*;
 import java.awt.event.*;
+import java.util.ArrayList;
 
 
 public class Items extends JFrame {
@@ -11,6 +12,7 @@ public class Items extends JFrame {
 
     //public static int allapples = 0;
     public static double TotalMoneyCount = 0;
+    public static ArrayList<String> totalitems = new ArrayList<String>();
 
 
 
@@ -34,6 +36,7 @@ public class Items extends JFrame {
                 TotalMoneyCount = TotalMoneyCount + 1.75;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
+                totalitems.add("Apples x 1");
             }
         });
 
@@ -51,6 +54,7 @@ public class Items extends JFrame {
                 TotalMoneyCount = TotalMoneyCount + 100;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
+                totalitems.add("masks x 1");
             }
         });
 
@@ -68,6 +72,7 @@ public class Items extends JFrame {
                 TotalMoneyCount = TotalMoneyCount + 10.75;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
+                totalitems.add("Calculator x 1");
             }
         });
 
@@ -78,13 +83,15 @@ public class Items extends JFrame {
         Calculator.setBounds(35, 186, 200, 40);
         getContentPane().add(Calculator);
         //__________________________________________________________________________________
-        JButton bannanas = new JButton("Bannanas: $1.50");
+        JButton bannanas = new JButton("Bananas: $1.50");
         bannanas.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 TotalMoneyCount = TotalMoneyCount + 1.50;
                 System.out.println(TotalMoneyCount);
                 TotalMoney.setText("Total Money = " + String.valueOf(TotalMoneyCount));
+                totalitems.add("Bananas x 1");
+                System.out.println(totalitems);
             }
         });
 
