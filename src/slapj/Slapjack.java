@@ -1,11 +1,12 @@
 package slapj;
+import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
-public class Slapjack {
+public class Slapjack extends JFrame {
 
     enum GameStatus {
         WIN,
