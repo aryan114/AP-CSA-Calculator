@@ -4,6 +4,7 @@ import javax.swing.border.MatteBorder;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.ArrayList;
+import java.util.Iterator;
 
 
 public class Items extends JFrame {
@@ -13,7 +14,7 @@ public class Items extends JFrame {
     //public static int allapples = 0;
     public static double TotalMoneyCount = 0;
     public static ArrayList<String> totalitems = new ArrayList<String>();
-
+    public static Iterator alltheitems = totalitems.iterator();
 
 
 

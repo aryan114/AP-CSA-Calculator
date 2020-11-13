@@ -48,6 +48,13 @@ public class Ecommerce extends JFrame {
             }
         });
 
+        ViewInventory.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                Inventory.main(null);
+            }
+        });
+
     }
 
 
