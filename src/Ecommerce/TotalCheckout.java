@@ -64,7 +64,7 @@ public class TotalCheckout extends JFrame {
         CheckOutItems.setBounds(35, 206, 200, 40);
         getContentPane().add(CheckOutItems);
 
-        if(Items.TotalMoneyCount > Balance){
+        if(Items.TotalMoneyCount > Balance){ //checks to see if the value of the money in cart is greater than or less than the amount of money you have
             System.out.println("Not Enough Money");
             EnoughMoney.setText("Balance Insufficient");
             CheckOutItems.setVisible(false);

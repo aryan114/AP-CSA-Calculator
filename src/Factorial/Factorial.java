@@ -35,7 +35,7 @@ public class Factorial extends JFrame {
         });
     }
 
-    public int facotrializer(int x){
+    public int facotrializer(int x){ //Recursivly multiplies the previous number by the next number through if statements
         if(x == 1){
             return 1;
         } else{

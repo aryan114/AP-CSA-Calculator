@@ -6,14 +6,15 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-
+//this is the items class. It is called multiple times in order to count how many items were purchased and the values of the items as well
 public class Items extends JFrame {
 
     public final JLabel TotalMoney = new JLabel("");
 
     //public static int allapples = 0;
+    //stores the value of the total money count as a double with starting value of 0
     public static double TotalMoneyCount = 0;
-    public static ArrayList<String> totalitems = new ArrayList<String>();
+    public static ArrayList<String> totalitems = new ArrayList<String>(); //stores the strings as an array and uses an iterator to sort the items
     public static Iterator alltheitems = totalitems.iterator();
 
 
