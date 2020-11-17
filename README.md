@@ -26,7 +26,7 @@ Instructions for running our project:
 | MVC Calculator | This is the Calculator 2.0 that has MVC implementation. By default this calcualtor runs using a GUI, but it is also possible to run this calculator on the Java Terminal since it uses the same model. The code for this is present in the CalcTerminal file. This file needs to be run for the Calculator 2.0 to run in the terminal. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/CalcView/CalcControl.java#L7 |
 | Conversions/Measurements | This is an option that will take you to another JFrame where you will find all the conversion calculators in our project. Use these to be able to convert between different measurements quickly. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/CalcView/CalcControl.java#L7 |
 | Factorial Calculator | The Factorial Calculator uses recursion in order to calculate the factorial of the number that you enter. Make sure to only enter positive integers since a facotrial can only be calculated for those numbers! https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Factorial/Factorial.java#L9 |
-| SlapJack | asdf |
+| SlapJack | https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/slapj/Slapjack.java#L9 |
 
 
 ### Credits
