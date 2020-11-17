@@ -5,6 +5,8 @@ Welcome to The Coders' repository. Here you will find multiple many games that w
 
 In order to access our project, run the Login program. Since you are a new user, please make a new user account first and then use those credentials to log in. You will then be greeted with a JFrame. You can navigate to Labs in order to access the different mini projects.
 
+Here is a video that overviews our project: asdf
+
 
 ### Projects
 
