@@ -11,6 +11,7 @@ Instructions for running our project:
 1) Clone our project if this is your first time doing so.
 2) Go to the file Main.java and click run.
 3) Our project will then be successfully compiled and executed!
+4) Closing the JFrame will close down the entire program, therefore, if you're not using the JFrame, just minimize it to continue using other parts of the program.
 
 ![](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/78df13b4a85151b517b2abb26f51b5e74c1b93d0/src/Pictures/MVC.JPG)
  
