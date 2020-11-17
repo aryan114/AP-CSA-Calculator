@@ -12,7 +12,7 @@ Instructions for running our project:
 2) Go to the file Main.java and click run.
 3) Our project will then be successfully compiled and executed!
 
-![](MVC.jpg)
+![](MVC.JPG)
  
 
 ### Projects
