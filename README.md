@@ -12,7 +12,7 @@ Instructions for running our project:
 2) Go to the file Main.java and click run.
 3) Our project will then be successfully compiled and executed!
 
-![](MVC.JPG)
+![](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/78df13b4a85151b517b2abb26f51b5e74c1b93d0/src/Pictures/MVC.JPG)
  
 
 ### Projects
