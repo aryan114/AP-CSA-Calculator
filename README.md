@@ -17,6 +17,7 @@ In order to access our project, run the Login program. Since you are a new user,
 | MVC Calculator | This is the Calculator 2.0 that has MVC implementation. By default this calcualtor runs using a GUI, but it is also possible to run this calculator on the Java Terminal since it uses the same model. The code for this is present in the CalcTerminal file. This file needs to be run for the Calculator 2.0 to run in the terminal. This calculator has similar functions to those found on a scientific calculator. |
 | Conversions/Measurements | This is an option that will take you to another JFrame where you will find all the conversion calculators in our project. Use these to be able to convert between different measurements quickly. |
 | Factorial Calculator | The Factorial Calculator uses recursion in order to calculate the factorial of the number that you enter. Make sure to only enter positive integers since a facotrial can only be calculated for those numbers! |
+| SlapJack | asdf |
 
 
 
