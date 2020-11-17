@@ -12,13 +12,13 @@ Here is a video that overviews our project: asdf
 
 | Project | Description |
 | --- | --- |
-| Aryan and Pranav Calculator | This is the Calculator 1.0 that was built to get us used to Swing. It contains multiple operations such as exponents, roots, trig and inverse trig functions. We also have roots in this calculator. |
-| Ecommerce | This is the main part of our project. Here, you can view items and add them to your cart, where you can later "pay" for your items. Ecommerce is a virtual grocery store simulator. |
-| Pythagoras Calculator | This is another calculator which is meant to help you with the Pythagorean Theorem. You can plug in the lengths of the two legs of a right triangle and this calculator will calcualte the lenght of the hypotenuse for you. |
-| Temperature Converter | This is a converter that converts farentheit to celsius. Just type in a temperature in farentheit and click "Convert" to view the temperature in celsius.|
-| MVC Calculator | This is the Calculator 2.0 that has MVC implementation. By default this calcualtor runs using a GUI, but it is also possible to run this calculator on the Java Terminal since it uses the same model. The code for this is present in the CalcTerminal file. This file needs to be run for the Calculator 2.0 to run in the terminal. This calculator has similar functions to those found on a scientific calculator. |
-| Conversions/Measurements | This is an option that will take you to another JFrame where you will find all the conversion calculators in our project. Use these to be able to convert between different measurements quickly. |
-| Factorial Calculator | The Factorial Calculator uses recursion in order to calculate the factorial of the number that you enter. Make sure to only enter positive integers since a facotrial can only be calculated for those numbers! |
+| Aryan and Pranav Calculator | This is the Calculator 1.0 that was built to get us used to Swing. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/view_control/CalculatorUI.java#L17|
+| Ecommerce | This is the main part of our project. Here, you can view items and add them to your cart, where you can later "pay" for your items. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Ecommerce/Ecommerce.java#L10 |
+| Pythagoras Calculator | This is another calculator which is meant to help you with the Pythagorean Theorem. You can plug in the lengths of the two legs of a right triangle and this calculator will calcualte the lenght of the hypotenuse for you. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Pythagoras/Pythagoras.java#L12 |
+| Temperature Converter | This is a converter that converts farentheit to celsius. Just type in a temperature in farentheit and click "Convert" to view the temperature in celsius. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Temperature/Temperature.java#L9 |
+| MVC Calculator | This is the Calculator 2.0 that has MVC implementation. By default this calcualtor runs using a GUI, but it is also possible to run this calculator on the Java Terminal since it uses the same model. The code for this is present in the CalcTerminal file. This file needs to be run for the Calculator 2.0 to run in the terminal. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/CalcView/CalcControl.java#L7 |
+| Conversions/Measurements | This is an option that will take you to another JFrame where you will find all the conversion calculators in our project. Use these to be able to convert between different measurements quickly. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/CalcView/CalcControl.java#L7 |
+| Factorial Calculator | The Factorial Calculator uses recursion in order to calculate the factorial of the number that you enter. Make sure to only enter positive integers since a facotrial can only be calculated for those numbers! https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Factorial/Factorial.java#L9 |
 | SlapJack | asdf |
 
 
