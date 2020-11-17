@@ -27,5 +27,21 @@ Instructions for running our project:
 | SlapJack | asdf |
 
 
+### Credits
+
+| Project | Credits |
+| --- | --- |
+| Aryan and Pranav Calculator | Aryan and Pranav |
+| Ecommerce | Praveen |
+| Pythagoras Calculator | Aryan |
+| Temperature Converter | Aryan |
+| MVC Calculator | Aryan and Pranav |
+| Conversions/Measurements | Aryan |
+| Factorial Calculator | Pranav |
+| SlapJack | Arnav |
+| Login System | Pranav |
+
+
+
 
 
