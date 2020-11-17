@@ -13,7 +13,7 @@ Instructions for running our project:
 3) Our project will then be successfully compiled and executed!
 
 ![](MVC.jpg)
-
+ 
 
 ### Projects
 
