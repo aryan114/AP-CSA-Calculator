@@ -7,6 +7,11 @@ In order to access our project, run the Login program. Since you are a new user,
 
 Here is a video that overviews our project: asdf
 
+Instructions for running our project:
+1) Clone our project if this is your first time doing so.
+2) Go to the file Main.java and click run.
+3) Our project will then be successfully compiled and executed!
+
 
 ### Projects
 
