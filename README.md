@@ -3,8 +3,6 @@
 ### Introduction
 Welcome to The Coders' repository. Here you will find multiple many games that we have been working on for the past few weeks. All of the programs use Swing UI to build the GUI. We have MVC Implementation in the MVC-Calculator and part of MVC (abstract model but view and controller in the same file) in the Login System.
 
-In order to access our project, run the Login program. Since you are a new user, please make a new user account first and then use those credentials to log in. You will then be greeted with a JFrame. You can navigate to Labs in order to access the different mini projects.
-
 Here is a video that overviews our project: asdf
 
 Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
