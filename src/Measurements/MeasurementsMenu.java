@@ -1,5 +1,6 @@
 package Measurements;
 
+import Conversions.InchesCentimeters;
 import Temperature.Temperature;
 import view_control.CalculatorUI;
 import view_control.MainMenu;
@@ -45,6 +46,13 @@ public class MeasurementsMenu extends JFrame {
             frame.setVisible(true);
         });
         mnMeasurements.add(mntmTemperature);
+
+        JMenuItem mntmInchesCentimeters = new JMenuItem("Inches to Centimeters");
+        mntmInchesCentimeters.addActionListener(e->{
+            InchesCentimeters frame = new InchesCentimeters();
+            frame.setVisible(true);
+        });
+        mnMeasurements.add(mntmInchesCentimeters);
 
 
 

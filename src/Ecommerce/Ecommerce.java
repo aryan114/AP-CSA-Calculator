@@ -21,7 +21,7 @@ public class Ecommerce extends JFrame {
         setVisible(true);
 
         JButton ViewItems = new JButton("View Items");
-        JButton ViewInventory = new JButton("View Inventory");
+        JButton ViewInventory = new JButton("View Cart");
         JButton Checkout = new JButton("Proceed to Checkout");
         getContentPane().add(ViewItems);
         getContentPane().add(ViewInventory);
