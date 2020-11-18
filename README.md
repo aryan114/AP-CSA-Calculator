@@ -47,7 +47,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 | Login System | Pranav     [Login System](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/78df13b4a85151b517b2abb26f51b5e74c1b93d0/src/LoginToProject/Login.java#L2) |
 
 
-### Awards for Scrum Team Members
+### Awards for Scrum Team Members graded by Aryan
 
 | Award | Reciepient |
 | --- | --- |
