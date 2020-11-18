@@ -29,6 +29,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 | Conversions/Measurements | This is an option that will take you to another JFrame where you will find all the conversion calculators in our project. Use these to be able to convert between different measurements quickly.  |
 | Factorial Calculator | The Factorial Calculator uses recursion in order to calculate the factorial of the number that you enter. Make sure to only enter positive integers since a facotrial can only be calculated for those numbers!  |
 | SlapJack | This simulates a simple SlapJack game. However, because Arnav used a different IDE to build this game, we couldnt' add it to the MainMenu. Therefore, in order to play the game, you need to run the SlapJack file by itself. |
+| Login System | The Login System runs everytime our project runs because this permits you to access our project. It has semi - MVC attributes and stores the credentials in a hasmap, stack and a queue for extra retention. |
 
 
 ### Credits
