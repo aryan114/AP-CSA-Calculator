@@ -1,6 +1,6 @@
 # AP-CSA The-Coders-Period-1 by Aryan, Pranav, Praveen and Arnav
 
-### Introduction
+## Introduction
 Welcome to The Coders' repository. Here you will find multiple many games that we have been working on for the past few weeks. All of the programs use Swing UI to build the GUI. We have MVC Implementation in the MVC-Calculator and part of MVC (abstract model but view and controller in the same file) in the Login System.
 
 Here is a video that overviews our project: asdf
@@ -17,7 +17,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 ![](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/78df13b4a85151b517b2abb26f51b5e74c1b93d0/src/Pictures/MVC.JPG)
  
 
-### Projects
+## Mini-Labs
 
 | Project | Description |
 | --- | --- |
@@ -32,7 +32,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 | Login System | The Login System runs everytime our project runs because this permits you to access our project. It has semi - MVC attributes and stores the credentials in a hasmap, stack and a queue for extra retention. |
 
 
-### Credits
+## Credits
 
 | Project | Credits |
 | --- | --- |
@@ -47,7 +47,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 | Login System | Pranav     [Login System](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/78df13b4a85151b517b2abb26f51b5e74c1b93d0/src/LoginToProject/Login.java#L2) |
 
 
-### Awards for Scrum Team Members
+## Awards for Scrum Team Members
 
 | Award | Reciepient |
 | --- | --- |
