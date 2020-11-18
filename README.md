@@ -51,11 +51,11 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 
 | Award | Reciepient |
 | --- | --- |
-| MVP Overall | asdf |
-| MVP in Communicating with others | asdf |
-| MVP in Collaborating with others | asdf |
-| MVP in Critical Thinking | asdf |
-| MVP in Creativity | asdf |
+| MVP Overall | Pranav |
+| MVP in Communicating with others | Pranav, was good at holding everyone accountable of what they had to accomplish. |
+| MVP in Collaborating with others | Praveen, was good at helping others with code issues. |
+| MVP in Critical Thinking | Pranav, he watched a lot of videos when he didn't understand something and incorporated new ideas in the project |
+| MVP in Creativity | Arnav, his slapjack game was very creative, something that we never thought of. |
 
 
 
