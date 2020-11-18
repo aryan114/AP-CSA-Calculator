@@ -21,7 +21,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 
 | Project | Description |
 | --- | --- |
-| Aryan and Pranav Calculator | This is the Calculator 1.0 that was built to get us used to Swing. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/view_control/CalculatorUI.java#L17|
+| Aryan and Pranav Calculator | This is the Calculator 1.0 that was built to get us used to Swing. |
 | Ecommerce | This is the main part of our project. Here, you can view items and add them to your cart, where you can later "pay" for your items. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Ecommerce/Ecommerce.java#L10 |
 | Pythagoras Calculator | This is another calculator which is meant to help you with the Pythagorean Theorem. You can plug in the lengths of the two legs of a right triangle and this calculator will calcualte the lenght of the hypotenuse for you. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Pythagoras/Pythagoras.java#L12 |
 | Temperature Converter | This is a converter that converts farentheit to celsius. Just type in a temperature in farentheit and click "Convert" to view the temperature in celsius. https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/Temperature/Temperature.java#L9 |
@@ -35,7 +35,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 
 | Project | Credits |
 | --- | --- |
-| Aryan and Pranav Calculator | Aryan and Pranav |
+| Aryan and Pranav Calculator | Aryan and Pranav [Aryan and Pranav Calculator](https://github.com/aryan114/AP-CSA-Calculator-The-Coders-Period-1/blob/master/src/view_control/CalculatorUI.java#L17) |
 | Ecommerce | Praveen |
 | Pythagoras Calculator | Aryan |
 | Temperature Converter | Aryan |
