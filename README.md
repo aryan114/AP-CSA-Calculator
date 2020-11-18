@@ -6,7 +6,9 @@ Welcome to The Coders' repository. Here you will find multiple many games that w
 Default Credentials:
 
 Username: coderwithswag
+
 Password: Legit
+
 
 Here is a video that overviews our project: https://www.loom.com/share/07cf3e6a1aab4708bdd951ccf84e9722
 
@@ -16,6 +18,7 @@ Padlet that shows AP Mastery: https://padlet.com/pranavk21950/ihw72xmw7dio4xbm
 1) Clone our project if this is your first time doing so.
 2) Go to the file Main.java and click run.
 3) Our project will then be successfully compiled and executed!
+3) You can either use the default credentials or create new credentials to log in.
 4) Closing the JFrame will close down the entire program, therefore, if you're not using the JFrame, just minimize it to continue using other parts of the program.
 
 
