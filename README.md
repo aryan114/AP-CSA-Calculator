@@ -1,6 +1,6 @@
 # AP-CSA The-Coders-Period-1 by Aryan, Pranav, Praveen and Arnav
 
-## Introduction
+## The Coders Repository
 Welcome to The Coders' repository. Here you will find multiple many games that we have been working on for the past few weeks. All of the programs use Swing UI to build the GUI. We have MVC Implementation in the MVC-Calculator and part of MVC (abstract model but view and controller in the same file) in the Login System.
 
 Here is a video that overviews our project: asdf
